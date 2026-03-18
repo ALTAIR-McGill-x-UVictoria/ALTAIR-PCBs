@@ -668,6 +668,10 @@
     [
       "fd5e5e33-5dc6-45b9-b42d-1fb287c03766",
       "power"
+    ],
+    [
+      "74cd1f89-6647-48ce-abe4-db9e7a1a2a85",
+      "HAT_connections"
     ]
   ],
   "text_variables": {}
