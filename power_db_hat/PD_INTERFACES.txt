@@ -1,0 +1,25 @@
+The power connector is a 4-pin (1x4) header. Pin 1 (closest to middle of the board) is battery voltage, pin 2 is analog/main ground, pin 3 is 3.3V DVDD for the oscillator and ADC, and pin 4 is "digital ground," used by the IVC102 integrator as a separate ground before connecting to analog ground across a 0-Ohm jumper.
+
+The system header has 1 row of 20 pins, with pin 1 closest to the power header.
+
+1. INT_SLCTA (ACF2101 select channel A)
+2. SYS_RESET (active low, reset the ADCs on both Sergeant and Soldier)
+3. INT_RST (ACF2101 reset switch)
+4. INT_HLD (ACF2101 hold switch)
+5. INT_SLCTB (ACF2101 select channel B)
+6. DRDY1 (active low, an output from one board's ADC)
+7. DRDY2 (active low, an output from the other board's ADC)
+8. SPI_MOSI
+9. STRT1 (an input on one board's ADC)
+10. STRT2 (an input on the other board's ADC)
+11. SPI_MISO
+12. SPI_CS3 (one board's reverse-biasing DAC)
+13. SPI_CS4 (the other board's DAC)
+14. SPI_SCLK
+15. SPI_CS1 (one board's ADC)
+16. SPI_CS2 (the other board's ADC)
+17. IVC_SW_1_Sol (Soldier IVC102 switch 1)
+18. IVC_SW_2_Sol (Soldier IVC102 switch 2)
+19. IVC_SW_1 (Sergeant IVC102 switch 1)
+20. IVC_SW_2 (Sergeant IVC102 switch 2)
+The header also has grounded mounting pins. I'm not sure how specialized the connector that plugs into this header is though.
