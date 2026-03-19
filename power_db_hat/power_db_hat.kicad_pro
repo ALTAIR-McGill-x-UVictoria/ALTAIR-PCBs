@@ -672,6 +672,10 @@
     [
       "74cd1f89-6647-48ce-abe4-db9e7a1a2a85",
       "HAT_connections"
+    ],
+    [
+      "49be27b4-9dd5-4ba8-9fd8-2a64f398149b",
+      "current/voltage_monitor"
     ]
   ],
   "text_variables": {}
