@@ -317,6 +317,192 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Power_Management:INA3221"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -811,7 +997,7 @@
 	)
 	(text_box "Channel 1: 24V, 10A max (1W dissipation)\n- shunt value: 10mR\n- recommended footprint: 2512 (2W)\n\nChannel 2: 12V, 5A max (1w dissipation)\n- shunt value: 10mR\n- recommended footprint: 2512 (2W)\n\nChannel 3: 5V, 5A max (250mW dissipation)\n- shunt value 10mW\n- recommended footprint: 2512 (1W)"
 		(exclude_from_sim no)
-		(at 71.755 88.9 0)
+		(at 17.78 17.78 0)
 		(size 44.45 29.21)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1067,6 +1253,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 43.18) (xy 72.39 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "655c656e-51ea-4c4a-b697-584472ef1bac")
+	)
+	(wire
+		(pts
 			(xy 50.8 53.34) (xy 59.69 53.34)
 		)
 		(stroke
@@ -1317,7 +1513,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 35.56) (xy 78.74 35.56)
+			(xy 71.12 35.56) (xy 78.74 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1436,7 +1632,7 @@
 	)
 	(hierarchical_label "VDD"
 		(shape input)
-		(at 73.66 35.56 90)
+		(at 71.12 35.56 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1458,7 +1654,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 73.66 39.37 0)
+		(at 71.12 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1467,7 +1663,7 @@
 		(fields_autoplaced yes)
 		(uuid "035bdb07-8ed9-4d42-99e9-cce664d458e3")
 		(property "Reference" "C3"
-			(at 77.47 38.0999 0)
+			(at 74.93 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1476,7 +1672,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 77.47 40.6399 0)
+			(at 74.93 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1484,8 +1680,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 74.6252 43.18 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 72.0852 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1494,7 +1690,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 39.37 0)
+			(at 71.12 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1503,7 +1699,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 73.66 39.37 0)
+			(at 71.12 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1583,7 +1779,7 @@
 			(uuid "a735a559-8f88-4518-b456-df7568158347")
 		)
 		(instances
-			(project ""
+			(project "power_db_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fd5e5e33-5dc6-45b9-b42d-1fb287c03766/49be27b4-9dd5-4ba8-9fd8-2a64f398149b"
 					(reference "#PWR09")
 					(unit 1)
@@ -1800,7 +1996,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 126.746 54.864 90)
 			(effects
 				(font
@@ -1867,7 +2063,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 112.776 72.136 90)
 			(effects
 				(font
@@ -1937,7 +2133,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 144.526 62.484 90)
 			(effects
 				(font
@@ -2004,7 +2200,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 63.246 72.136 90)
 			(effects
 				(font
@@ -2071,7 +2267,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 63.246 56.896 90)
 			(effects
 				(font
@@ -2138,7 +2334,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 108.966 77.216 90)
 			(effects
 				(font
@@ -2181,8 +2377,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 82.55 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e74d085-e47d-4a8b-9786-7e66e100948c")
+		(property "Reference" "JP1"
+			(at 82.55 32.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 85.852 27.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 82.55 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 82.55 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd0275ff-fee9-4d24-b9a6-1d3b45469014")
+		)
+		(pin "2"
+			(uuid "303d0398-882b-46ce-86cd-c72459107bcb")
+		)
+		(instances
+			(project "power_db_hat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fd5e5e33-5dc6-45b9-b42d-1fb287c03766/49be27b4-9dd5-4ba8-9fd8-2a64f398149b"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 73.66 43.18 0)
+		(at 72.39 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2191,7 +2455,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ae6cd4b-b63c-4d88-95c7-36405d6fa067")
 		(property "Reference" "#PWR035"
-			(at 73.66 49.53 0)
+			(at 72.39 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2200,7 +2464,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 48.26 0)
+			(at 72.39 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2208,7 +2472,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 43.18 0)
+			(at 72.39 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2217,7 +2481,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 43.18 0)
+			(at 72.39 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2226,7 +2490,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 43.18 0)
+			(at 72.39 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2274,7 +2538,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 110.236 49.784 90)
 			(effects
 				(font
@@ -2344,7 +2608,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 153.416 65.024 90)
 			(effects
 				(font
@@ -2388,74 +2652,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 82.55 35.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cab13893-f18f-4a6d-94a9-b696b71c19bd")
-		(property "Reference" "R9"
-			(at 82.55 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 82.55 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.804 34.544 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 82.55 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d7594002-598d-403e-8937-bf7f645872d1")
-		)
-		(pin "2"
-			(uuid "1f044eb6-43dc-4d21-9fee-183723689739")
-		)
-		(instances
-			(project "power_db_hat"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fd5e5e33-5dc6-45b9-b42d-1fb287c03766/49be27b4-9dd5-4ba8-9fd8-2a64f398149b"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
 		(at 118.11 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2482,7 +2678,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 119.126 52.324 90)
 			(effects
 				(font
@@ -2541,7 +2737,7 @@
 				)
 			)
 		)
-		(property "Value" "10mR"
+		(property "Value" "10m"
 			(at 55.88 64.77 90)
 			(effects
 				(font
@@ -2549,7 +2745,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 63.246 64.516 90)
 			(effects
 				(font
@@ -2619,7 +2815,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 134.366 57.404 90)
 			(effects
 				(font
