@@ -676,6 +676,10 @@
     [
       "49be27b4-9dd5-4ba8-9fd8-2a64f398149b",
       "current/voltage_monitor"
+    ],
+    [
+      "b7d8961d-96c8-448d-accd-96aea1343789",
+      "servos+gpio"
     ]
   ],
   "text_variables": {}
