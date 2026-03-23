@@ -109,7 +109,6 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
-        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -471,7 +470,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "power_db_hat.kicad_pro",
+    "filename": "interface_db_hat.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -586,24 +585,12 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "",
+      "name": "Grouped By Value",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -666,20 +653,12 @@
       "Root"
     ],
     [
-      "fd5e5e33-5dc6-45b9-b42d-1fb287c03766",
-      "power"
-    ],
-    [
-      "74cd1f89-6647-48ce-abe4-db9e7a1a2a85",
+      "9aa39dd2-f17c-466d-b47e-78913668b497",
       "HAT_connections"
     ],
     [
-      "49be27b4-9dd5-4ba8-9fd8-2a64f398149b",
-      "current/voltage_monitor"
-    ],
-    [
-      "b7d8961d-96c8-448d-accd-96aea1343789",
-      "expansion"
+      "aeb159fc-7cd8-4bec-a350-e637aece7c18",
+      "GPS"
     ]
   ],
   "text_variables": {}
