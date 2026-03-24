@@ -2442,7 +2442,7 @@
 	)
 	(text "from MAX17506 datasheet\n"
 		(exclude_from_sim no)
-		(at 129.032 103.378 0)
+		(at 87.122 110.236 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2452,7 +2452,7 @@
 	)
 	(text "5V buck\n"
 		(exclude_from_sim no)
-		(at 94.742 102.108 0)
+		(at 86.868 105.156 0)
 		(effects
 			(font
 				(size 2.54 2.54)
