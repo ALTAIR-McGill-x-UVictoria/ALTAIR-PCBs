@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "LDD-700LS") (type "KiCad") (uri "${KIPRJMOD}/Imported Components/LDD-700LS/LDD-700LS.pretty") (options "") (descr ""))
+)

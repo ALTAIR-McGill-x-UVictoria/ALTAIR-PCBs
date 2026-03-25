@@ -3,6 +3,8 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
+        "apply_defaults_to_fp_barcodes": false,
+        "apply_defaults_to_fp_dimensions": false,
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
@@ -78,6 +80,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
+        "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "error",
         "hole_clearance": "error",
@@ -96,6 +99,7 @@
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
+        "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
@@ -115,9 +119,12 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
+        "track_not_centered_on_via": "ignore",
+        "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
+        "tuning_profile_track_geometries": "ignore",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
@@ -690,7 +697,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "L1-2,D6,D14,D52,D55,#PWR22,#PWR24-26,#PWR28-29,#PWR46-49,#PWR71-73,#PWR76-77,#PWR82,#PWR84-85,C6-9,C11,C13-17,C27-29,C31-43,Q4,Q6-7,R19-20,R22-23,R30-31,R35-36,R38,R42-44,R65-66,U3,U5",
+    "used_designators": "C2,C4,C44-56,#PWR2,#PWR4-6,#PWR16-17,#PWR20-21,#PWR23,#PWR30-31,#PWR37-38,#PWR53,#PWR79,#PWR86-90,JP6-8,R15-16,BZ1,J1,J3,J6-7,J9,J17-18,Q1,TP1-5,U2,U6",
     "variants": []
   },
   "sheets": [
@@ -701,10 +708,6 @@
     [
       "fd5e5e33-5dc6-45b9-b42d-1fb287c03766",
       "power"
-    ],
-    [
-      "74cd1f89-6647-48ce-abe4-db9e7a1a2a85",
-      "HAT_connections"
     ],
     [
       "49be27b4-9dd5-4ba8-9fd8-2a64f398149b",
