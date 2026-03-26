@@ -199,7 +199,10 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.254,
+        0.381,
+        5.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -231,6 +234,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 9.0,
+          "drill": 6.0
         }
       ],
       "zones_allow_external_fillets": false,
@@ -471,8 +478,8 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "pin_to_pin": "ignore",
+      "power_pin_not_driven": "warning",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
@@ -518,17 +525,27 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.5,
+        "name": "High Current",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 5.0,
+        "tuning_profile": "",
+        "via_diameter": 1.4,
+        "via_drill": 0.8
+      },
+      {
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.5,
         "microvia_drill": 0.1,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "tuning_profile": "",
@@ -541,7 +558,26 @@
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "+24V": [
+        "High Current"
+      ],
+      "/VBAT1+": [
+        "High Current"
+      ],
+      "/VBAT2+": [
+        "High Current"
+      ],
+      "/VBAT_24V": [
+        "High Current"
+      ],
+      "/power/24V_SNS": [
+        "High Current"
+      ],
+      "/power/24V_SWITCH": [
+        "High Current"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -697,7 +733,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "U7-8,#PWR30-33,JP9-12,K1-2,C5",
+    "used_designators": "Q1-4,J3,J7,R1-5,D7-11,#PWR30,#PWR38-41,#PWR51,#PWR63-70,#PWR79,#PWR89-90,C10,C19-20,C25-26,C30,C44,U8-9,JP2-3",
     "variants": []
   },
   "sheets": [

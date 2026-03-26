@@ -1757,6 +1757,16 @@
 		)
 		(uuid "5b90a694-677f-4ec3-a730-741d3676278c")
 	)
+	(text "B82477G4103M000"
+		(exclude_from_sim no)
+		(at 145.034 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8d635bd8-2a92-44ad-9a18-1ac879f915bc")
+	)
 	(text "DNP\n"
 		(exclude_from_sim no)
 		(at 148.082 182.626 0)
@@ -1766,6 +1776,16 @@
 			)
 		)
 		(uuid "a6738185-6b26-4541-a3e7-ed8ee3579417")
+	)
+	(text "B82477G4472M000"
+		(exclude_from_sim no)
+		(at 185.928 35.052 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eaf06be0-d37a-4423-86f9-763aa81f770c")
 	)
 	(junction
 		(at 172.72 43.18)
@@ -1978,12 +1998,6 @@
 		(uuid "9f9c911e-4f8e-47e6-b1d0-90d316d5051d")
 	)
 	(junction
-		(at 162.56 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a59a06c7-deed-403a-81c2-bf12dc4b0f0d")
-	)
-	(junction
 		(at 154.94 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2060,6 +2074,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0ade677-b1b1-4857-b688-86510faf9c16")
+	)
+	(junction
+		(at 162.56 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0d6c213-efb4-4240-bf58-5c58054ec764")
 	)
 	(junction
 		(at 120.65 137.16)
@@ -2337,7 +2357,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 132.08) (xy 196.85 132.08)
+			(xy 162.56 132.08) (xy 195.58 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2737,7 +2757,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 43.18) (xy 106.68 43.18)
+			(xy 91.44 43.18) (xy 106.68 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2827,7 +2847,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 45.72) (xy 92.71 43.18)
+			(xy 91.44 45.72) (xy 91.44 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2907,7 +2927,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 45.72) (xy 92.71 45.72)
+			(xy 87.63 45.72) (xy 91.44 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3446,7 +3466,7 @@
 		(uuid "bdd2dde1-e265-40cc-accb-1ae6a4c13d6b")
 	)
 	(label "BUCK_OUT_12V"
-		(at 166.37 132.08 0)
+		(at 167.64 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3490,7 +3510,7 @@
 	)
 	(hierarchical_label "BUCK_OUT_12V"
 		(shape input)
-		(at 196.85 132.08 0)
+		(at 195.58 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6710,7 +6730,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "IND_B82477G4472M000:IND_B82477G4472M000"
 			(at 138.43 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -7571,7 +7591,7 @@
 		(dnp no)
 		(uuid "b2635ebf-eb2e-4263-bf23-69562613605a")
 		(property "Reference" "C14"
-			(at 86.106 48.006 0)
+			(at 89.154 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7582,7 +7602,7 @@
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 86.106 50.546 0)
+			(at 89.154 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8054,7 +8074,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_TDK:IND_B82477G4472M000"
+		(property "Footprint" "IND_B82477G4472M000:IND_B82477G4472M000"
 			(at 180.34 43.18 0)
 			(hide yes)
 			(show_name no)
