@@ -1544,6 +1544,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "059a9470-79be-45b8-8a4d-3b4f875a6bf8")
 		(at 104.885 65.54 180)
@@ -3794,6 +3795,7 @@
 		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "2ca7fe4e-e467-4494-adc7-7489fb71b998")
 		(at 102.46 86.96 90)
@@ -9442,6 +9444,7 @@
 		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "7cc9dd02-8043-4a36-8baf-ec10be897c2c")
 		(at 102.42 53.46 90)
@@ -10266,6 +10269,7 @@
 		)
 	)
 	(footprint "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "878270b1-82a0-4bed-a839-b6bb88f00979")
 		(at 103.5 72 -90)
@@ -11309,6 +11313,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "903a7f8a-a378-41a2-a5fd-e47553b07332")
 		(at 149.84 53.46 90)
@@ -20636,6 +20641,7 @@
 		)
 	)
 	(gr_text "PI UART"
+		(locked yes)
 		(at 108.5 66 90)
 		(layer "F.SilkS")
 		(uuid "cbf1cd5f-4533-4122-8b93-fe7485b7c017")
