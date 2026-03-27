@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP LDD-700LS
-D LED Power Supplies 9-32V 2-28Vout 700mA LED Driver SMT style
-K
-F https://www.meanwell-web.com/content/files/pdfs/productPdfs/MW/LDD-l/ldd-l-spec.pdf
-$ENDCMP
-#
-#End Doc Library

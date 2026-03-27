@@ -1757,9 +1757,9 @@
 		)
 		(uuid "5b90a694-677f-4ec3-a730-741d3676278c")
 	)
-	(text "B82477G4103M000"
+	(text "VLS6045EX-100M"
 		(exclude_from_sim no)
-		(at 145.034 124.46 0)
+		(at 141.986 123.698 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6290,7 +6290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
+		(property "Footprint" "SiS468DN:Vishay_PowerPAK_1212-8_Single"
 			(at 133.35 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -6730,7 +6730,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IND_B82477G4472M000:IND_B82477G4472M000"
+		(property "Footprint" "Inductor_SMD:L_TDK_VLS6045EX_VLS6045AF"
 			(at 138.43 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -8074,7 +8074,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IND_B82477G4472M000:IND_B82477G4472M000"
+		(property "Footprint" "B82477G4472M000:IND_B82477G4472M000"
 			(at 180.34 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8633,7 +8633,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
+		(property "Footprint" "SiS468DN:Vishay_PowerPAK_1212-8_Single"
 			(at 175.26 29.21 0)
 			(hide yes)
 			(show_name no)
