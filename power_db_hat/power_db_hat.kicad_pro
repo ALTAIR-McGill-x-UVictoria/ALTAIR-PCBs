@@ -236,8 +236,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 9.0,
-          "drill": 6.0
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false,
@@ -525,7 +525,7 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.5,
+        "clearance": 0.3,
         "name": "High Current",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
@@ -733,7 +733,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "#PWR53,#PWR79,#PWR93-94,C47-48,R33-34",
+    "used_designators": "L1,#PWR65,#PWR67,JP2-3",
     "variants": []
   },
   "sheets": [

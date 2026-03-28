@@ -2633,7 +2633,7 @@
 	)
 	(text "Select between supplies\n"
 		(exclude_from_sim no)
-		(at 72.136 100.584 0)
+		(at 92.202 87.884 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2663,7 +2663,7 @@
 	)
 	(text "Linear Actuators"
 		(exclude_from_sim no)
-		(at 89.408 95.25 0)
+		(at 89.408 79.248 0)
 		(effects
 			(font
 				(size 2.54 2.54)
