@@ -148,7 +148,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.025,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
@@ -199,7 +199,10 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.254,
+        0.381,
+        5.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -231,6 +234,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false,
@@ -518,17 +525,27 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.3,
+        "name": "High Current",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 5.0,
+        "tuning_profile": "",
+        "via_diameter": 1.4,
+        "via_drill": 0.8
+      },
+      {
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.5,
         "microvia_drill": 0.1,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "tuning_profile": "",
@@ -685,7 +702,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "U3,Q2",
+    "used_designators": "J2,J7,#PWR57",
     "variants": []
   },
   "sheets": [
