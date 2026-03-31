@@ -1969,7 +1969,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Texas_RGV0016A_VQFN-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm"
+		(property "Footprint" "INA3221:QFN65P400X400X100-17N-D"
 			(at 135.89 64.77 0)
 			(hide yes)
 			(show_name no)

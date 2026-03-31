@@ -61,7 +61,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|141087500|59425000|a0b03285-67ad-4ece-a123-6196b9924e52|61063654-00e8-4d6f-8642-aea08dfd8957",
+          ""
+        ],
+        [
+          "clearance|141087500|60075000|867c549b-56af-4b79-af22-a15c9f5cf3f9|61063654-00e8-4d6f-8642-aea08dfd8957",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -661,6 +670,42 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
           "show": false
         }
       ],

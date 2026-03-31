@@ -1938,7 +1938,7 @@
 	)
 	(text "18V Zener"
 		(exclude_from_sim no)
-		(at 100.076 28.702 0)
+		(at 97.79 31.496 0)
 		(effects
 			(font
 				(size 1.27 1.27)
