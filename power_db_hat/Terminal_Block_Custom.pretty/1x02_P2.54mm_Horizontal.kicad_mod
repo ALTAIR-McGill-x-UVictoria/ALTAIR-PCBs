@@ -1,0 +1,352 @@
+(footprint "1x02_P2.54mm_Horizontal"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Terminal Block Xinya XY308-2.54-2P, 2 pins, pitch 2.54mm, size 5.58x6.5mm, drill diameter 1.2mm, pad diameter 2mm, http://www.xinyaelectronic.com/product/xy308-254")
+	(tags "THT Terminal Block Xinya XY308-2.54-2P pitch 2.54mm size 5.58x6.5mm drill 1.2mm pad 2mm")
+	(property "Reference" "REF**"
+		(at 1.27 -4.22 0)
+		(layer "F.SilkS")
+		(uuid "5e2b228f-879a-4b2a-b60b-c6fb1d6d8cb2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "1x02_P2.54mm_Horizontal"
+		(at 1.27 4.52 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd22ba3a-0281-4c1c-947a-ebc181cf34eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3bc657b3-44cc-425d-a169-a444f6b5a78f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e863f9d-0d64-4d27-a9a6-429ee61b9b45")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "terminal_block/Xinya"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9cabeeae-c02e-46f9-91ba-11b64d4ced8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.64 -3.22)
+		(end 4.18 -3.22)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8cc9ff52-2ac3-4297-a8cd-0b4a873e54c7")
+	)
+	(fp_line
+		(start -1.64 -1.5)
+		(end 4.18 -1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "98c7321e-aebe-4a5b-876a-194654cd5f3c")
+	)
+	(fp_line
+		(start -1.64 1.6)
+		(end 4.18 1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bff07728-a068-4f8d-859f-1f02e3e97a8c")
+	)
+	(fp_line
+		(start -1.64 2.6)
+		(end 4.18 2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "541c45bd-ef57-42ac-b74b-14f656598662")
+	)
+	(fp_line
+		(start -1.64 3.52)
+		(end -1.64 -3.22)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea81cdde-073d-4540-bf4a-071cf9999c9a")
+	)
+	(fp_line
+		(start -0.3 3.52)
+		(end -1.64 3.52)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1f64f0c7-7f86-495c-a93a-15bf9012bd90")
+	)
+	(fp_line
+		(start 4.18 -3.22)
+		(end 4.18 3.52)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8a7be693-724d-445c-ad66-d94691e3299d")
+	)
+	(fp_line
+		(start 4.18 3.52)
+		(end 0.3 3.52)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0e7ef8d2-1572-4eef-a877-4efd4c114c8a")
+	)
+	(fp_poly
+		(pts
+			(xy 0 3.52) (xy 0.44 4.13) (xy -0.44 4.13)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "d2453f53-179f-4195-9911-3df3f52e7370")
+	)
+	(fp_rect
+		(start -2.02 -3.6)
+		(end 4.57 3.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9f1a89fe-f718-4dce-be88-48d1a465fccb")
+	)
+	(fp_line
+		(start -1.52 -3.1)
+		(end 4.06 -3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0df9c6ca-3028-4e5e-9c75-4e2f8814f9f2")
+	)
+	(fp_line
+		(start -1.52 -1.5)
+		(end 4.06 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4d744d51-46c4-4e47-bbe2-0a0b2f0bc097")
+	)
+	(fp_line
+		(start -1.52 1.6)
+		(end 4.06 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8d32feb1-127b-49a0-b851-df05bd9c0ceb")
+	)
+	(fp_line
+		(start -1.52 2.6)
+		(end -1.52 -3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "09c020b4-4d37-4925-8a5e-b71b62054480")
+	)
+	(fp_line
+		(start -1.52 2.6)
+		(end 4.06 2.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c93e0a2b-dd8d-4854-9241-2e6e8cc69488")
+	)
+	(fp_line
+		(start -0.72 3.4)
+		(end -1.52 2.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e6518757-a7ed-4832-a0a6-818187598656")
+	)
+	(fp_line
+		(start 0.636 -0.758)
+		(end -0.758 0.636)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ddcc5612-fac7-4b6c-b2f1-60c7bbf7e481")
+	)
+	(fp_line
+		(start 0.758 -0.636)
+		(end -0.636 0.758)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6c55cc61-c850-4628-926f-1b8bc8a4c7b6")
+	)
+	(fp_line
+		(start 3.176 -0.758)
+		(end 1.782 0.636)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "294543cf-2a6a-4010-a835-1d347a3716d1")
+	)
+	(fp_line
+		(start 3.298 -0.636)
+		(end 1.904 0.758)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b1472c1d-b44b-47fb-9a4f-8a134cc62b04")
+	)
+	(fp_line
+		(start 4.06 -3.1)
+		(end 4.06 3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c1f9cc34-e3fd-4ea8-b80a-e02b907ebfad")
+	)
+	(fp_line
+		(start 4.06 3.4)
+		(end -0.72 3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "159f4899-ebc7-4311-9527-9c37ee9a7389")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "dccbed26-5cec-4668-8d5f-7cb36caa62a7")
+	)
+	(fp_circle
+		(center 2.54 0)
+		(end 3.54 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2c1a59cd-c0a3-48a9-9f06-77863829a834")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.27 2.15 0)
+		(layer "F.Fab")
+		(uuid "b7f13c2f-73c7-417f-8462-1ac18104df08")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.125)
+		(uuid "391154f5-d6e0-4268-b524-9c425519dbbf")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e5bf2347-8695-4218-9026-4c1a628216f9")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Imported Components/1x2 2.54mm terminal block/691210910002+%28rev1%29.stp"
+		(offset
+			(xyz 1.3 0 2.55)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

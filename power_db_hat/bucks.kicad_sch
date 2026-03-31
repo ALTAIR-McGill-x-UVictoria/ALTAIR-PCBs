@@ -1053,12 +1053,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:NMOS"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "SiS468DN-T1-GE3:SIS468DN-T1-GE3"
 			(pin_names
-				(offset 0)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1066,40 +1063,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+				(at 5.0817 1.2704 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "NMOS"
-				(at 5.08 -1.27 0)
+			(property "Value" "SIS468DN-T1-GE3"
+				(at 5.0801 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
+			(property "Footprint" "SIS468DN-T1-GE3:VISHAY_SIS468DN-T1-GE3"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1107,9 +1093,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1120,40 +1107,7 @@
 					)
 				)
 			)
-			(property "Sim.Device" "NMOS"
-				(at 0 -17.145 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1164,224 +1118,391 @@
 					)
 				)
 			)
-			(symbol "NMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
+			(property "PARTREV" "A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(justify bottom)
 				)
 			)
-			(symbol "NMOS_1_1"
+			(property "MANUFACTURER" "VISHAY"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "MANUFACTURER RECOMMENDATIONS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "SIS468DN-T1-GE3_0_0"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 3.175) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.54) (xy -0.508 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 0.762) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 0) (xy -0.508 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.905) (xy -0.508 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 0) (xy 0.762 0.508) (xy 0.762 -0.508) (xy -0.254 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 2.54)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -2.54)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0.508) (xy 3.048 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.508) (xy 2.032 -0.254) (xy 3.048 -0.254) (xy 2.54 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at 2.54 5.08 270)
+					(at 1.27 -5.08 90)
 					(length 2.54)
-					(name "D"
+					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 1.27 -5.08 90)
 					(length 2.54)
-					(name "G"
+					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 1.27 -5.08 90)
 					(length 2.54)
-					(name "S"
+					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -2367,6 +2488,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 113.03) (xy 123.19 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "480a44f8-2033-47af-bda7-02e36a505f8f")
+	)
+	(wire
+		(pts
 			(xy 191.77 71.12) (xy 199.39 71.12)
 		)
 		(stroke
@@ -2404,6 +2535,16 @@
 			(type default)
 		)
 		(uuid "4fdd5c12-300b-4c7b-8f8d-29afd0dae1b2")
+	)
+	(wire
+		(pts
+			(xy 125.73 113.03) (xy 123.19 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fed8f61-8f07-47ac-9a33-31753e976cc3")
 	)
 	(wire
 		(pts
@@ -2537,6 +2678,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 24.13) (xy 165.1 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68e0f714-0b85-4df4-8219-baad0c64f466")
+	)
+	(wire
+		(pts
 			(xy 176.53 58.42) (xy 176.53 83.82)
 		)
 		(stroke
@@ -2567,13 +2718,13 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 115.57) (xy 123.19 118.11)
+			(xy 165.1 24.13) (xy 165.1 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6ae38917-7bac-4577-9067-116b756ddb06")
+		(uuid "6d28a4a2-fd7e-4471-ab00-4527d060493d")
 	)
 	(wire
 		(pts
@@ -3094,16 +3245,6 @@
 			(type default)
 		)
 		(uuid "f13bc3f8-d025-40e0-8b15-f1f64017fe21")
-	)
-	(wire
-		(pts
-			(xy 165.1 26.67) (xy 165.1 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f536027e-a8ca-4ac2-95da-5c7e2afae72f")
 	)
 	(wire
 		(pts
@@ -6110,124 +6251,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 128.27 115.57 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "66af4918-5fba-47be-af69-4fa65bf0775b")
-		(property "Reference" "Q6"
-			(at 134.62 116.8401 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SIS468DN"
-			(at 134.62 114.3001 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SiS468DN:Vishay_PowerPAK_1212-8_Single"
-			(at 133.35 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 128.27 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 128.27 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 128.27 98.425 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 128.27 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 128.27 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "20092816-05bb-4a59-b4ee-49972141cb57")
-		)
-		(pin "3"
-			(uuid "ed04a4bf-3d08-4ea0-863d-9bd8252b82c9")
-		)
-		(pin "2"
-			(uuid "b3db305a-e2e9-461b-b172-099710df03ae")
-		)
-		(instances
-			(project "power_db_hat"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fd5e5e33-5dc6-45b9-b42d-1fb287c03766/e2ba82d1-535c-4903-80e9-08eeda962fab"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 80.01 41.91 0)
 		(unit 1)
@@ -8290,8 +8313,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 170.18 26.67 0)
+		(lib_id "SiS468DN-T1-GE3:SIS468DN-T1-GE3")
+		(at 129.54 115.57 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -8300,9 +8323,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d5e09d1b-05d5-4f3e-b2ab-f6184d31a55e")
+		(uuid "d4f8d380-d316-4763-afc2-6297a19f07e6")
 		(property "Reference" "Q7"
-			(at 175.768 23.114 0)
+			(at 133.35 116.8401 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8312,8 +8335,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SIS468DN"
-			(at 175.768 20.574 0)
+		(property "Value" "SIS468DN-T1-GE3"
+			(at 133.35 114.3001 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8323,8 +8346,20 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SiS468DN:Vishay_PowerPAK_1212-8_Single"
-			(at 175.26 29.21 0)
+		(property "Footprint" "SiS468DN-T1-GE3:VISHAY_SIS468DN-T1-GE3"
+			(at 129.54 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8334,8 +8369,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 170.18 13.97 0)
+		(property "Description" ""
+			(at 129.54 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8345,8 +8380,8 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 170.18 26.67 0)
+		(property "PARTREV" "A"
+			(at 129.54 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8354,10 +8389,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(property "Sim.Device" "NMOS"
-			(at 170.18 9.525 0)
+		(property "MANUFACTURER" "VISHAY"
+			(at 129.54 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8365,10 +8401,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(property "Sim.Type" "VDMOS"
-			(at 170.18 7.62 0)
+		(property "STANDARD" "MANUFACTURER RECOMMENDATIONS"
+			(at 129.54 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8376,32 +8413,180 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 170.18 11.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4014242e-cde9-4e18-bef2-af49d7f5fc75")
 		)
 		(pin "3"
-			(uuid "3b055054-14b9-4b0a-9e33-eec10ddfe0ca")
+			(uuid "54af4cf5-80e5-4afa-829d-f84b6ab72178")
+		)
+		(pin "6"
+			(uuid "d62eebef-4c5d-4f27-ae8a-763271b0074f")
+		)
+		(pin "1"
+			(uuid "42a88402-2dd2-4fda-ba65-7de2a599aaab")
 		)
 		(pin "2"
-			(uuid "eed1059b-1b9a-4b12-bce8-db75679f5c52")
+			(uuid "b2f7620a-7556-484c-a927-72c7b62e5a36")
+		)
+		(pin "4"
+			(uuid "4450e280-87ec-4b79-9f62-103e8542b26c")
+		)
+		(pin "5"
+			(uuid "13af89ac-77f8-4196-ad2e-593e907fb2b5")
+		)
+		(pin "7"
+			(uuid "7efee3e9-275c-4e92-a073-02e8f43d8817")
+		)
+		(pin "9"
+			(uuid "6c05a194-94e3-4da7-ad14-89ab9b9c4a03")
+		)
+		(pin "8"
+			(uuid "29799bcf-0775-4c06-908f-45a7a6e04fe7")
 		)
 		(instances
 			(project "power_db_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fd5e5e33-5dc6-45b9-b42d-1fb287c03766/e2ba82d1-535c-4903-80e9-08eeda962fab"
 					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SiS468DN-T1-GE3:SIS468DN-T1-GE3")
+		(at 171.45 26.67 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dabd9bfa-258b-4245-b17d-e06d79a52fb0")
+		(property "Reference" "Q5"
+			(at 175.26 27.9401 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SIS468DN-T1-GE3"
+			(at 175.26 25.4001 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SiS468DN-T1-GE3:VISHAY_SIS468DN-T1-GE3"
+			(at 171.45 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 171.45 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "VISHAY"
+			(at 171.45 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "MANUFACTURER RECOMMENDATIONS"
+			(at 171.45 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "3"
+			(uuid "69b12fbf-2901-4eb9-971e-dee9c7b604d3")
+		)
+		(pin "6"
+			(uuid "9d6079a3-bf64-4838-97d0-25f6f26c6cbe")
+		)
+		(pin "1"
+			(uuid "ea0f20c0-f68e-4344-a1c1-047ff285b6e0")
+		)
+		(pin "2"
+			(uuid "76e77ad8-652a-4f00-be63-c6b73ec2e38e")
+		)
+		(pin "4"
+			(uuid "cdd1869d-cffd-4bb1-a1a1-e07d23392862")
+		)
+		(pin "5"
+			(uuid "5376c940-25f9-4b20-bb0b-a45395527f1b")
+		)
+		(pin "7"
+			(uuid "cb0862b9-92a0-40d2-8280-ae6ea2024e05")
+		)
+		(pin "9"
+			(uuid "ed9a3745-bcb2-42c1-9cdd-c8a0f56990cd")
+		)
+		(pin "8"
+			(uuid "afae0d99-e6cf-43c1-9f16-ea35983c2bfd")
+		)
+		(instances
+			(project "power_db_hat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fd5e5e33-5dc6-45b9-b42d-1fb287c03766/e2ba82d1-535c-4903-80e9-08eeda962fab"
+					(reference "Q5")
 					(unit 1)
 				)
 			)

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "INA3221AIRGVR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-06-22-02:40:16)
+    (mountForm default
+        (footprintRef "QFN65P400X400X100-17N-D")
+        (spec "System")
+    )
+)

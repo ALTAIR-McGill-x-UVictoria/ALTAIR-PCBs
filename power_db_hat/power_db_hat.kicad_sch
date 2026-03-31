@@ -5713,7 +5713,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "INA3221:QFN65P400X400X100-17N-D"
 			(at 78.74 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -8909,7 +8909,7 @@
 				)
 			)
 		)
-		(property "Value" "FUSE_10A"
+		(property "Value" "FUSE_15A"
 			(at 161.29 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8919,7 +8919,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_2512_6332Metric_Pad1.52x3.35mm_HandSolder"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 161.29 62.738 90)
 			(hide yes)
 			(show_name no)

@@ -4365,7 +4365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Terminal_Block_Custom:1x02_P2.54mm_Horizontal"
 			(at 149.86 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -4994,7 +4994,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Terminal_Block_Custom:1x02_P2.54mm_Horizontal"
 			(at 264.16 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5879,7 +5879,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Terminal_Block_Custom:1x02_P2.54mm_Horizontal"
 			(at 233.68 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -6360,7 +6360,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Terminal_Block_Custom:1x02_P2.54mm_Horizontal"
 			(at 245.11 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -7442,7 +7442,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Terminal_Block_Custom:1x02_P2.54mm_Horizontal"
 			(at 72.39 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -7602,7 +7602,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Terminal_Block_Custom:1x02_P2.54mm_Horizontal"
 			(at 262.89 137.16 0)
 			(hide yes)
 			(show_name no)

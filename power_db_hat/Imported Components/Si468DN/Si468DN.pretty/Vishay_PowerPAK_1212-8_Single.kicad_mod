@@ -1,0 +1,333 @@
+(footprint "Vishay_PowerPAK_1212-8_Single"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "PowerPAK 1212-8 Single (https://www.vishay.com/docs/71656/ppak12128.pdf, https://www.vishay.com/docs/72597/72597.pdf)")
+	(tags "Vishay PowerPAK 1212-8 Single")
+	(property "Reference" "Q7"
+		(at 0 -2.7 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f60bb5d3-ea77-4bb1-a831-e017ce1f2c8d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SIS468DN"
+		(at 0 2.7 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "06f8b744-64c2-4750-8a8f-d438235d93f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b97c00bf-e5dd-468d-91ad-ca37b2b3bbda")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d4275ab-cd26-4966-afe3-1acc24a8a049")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Device" "NMOS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "637fb2f0-346d-4f99-b104-343f99c6b3af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Type" "VDMOS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "516e9eb8-8b7f-44f0-9486-6ce7d5392f99")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" "1=D 2=G 3=S"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d4af00d5-abda-497a-84f7-46b1f15d9449")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/power/bucks/")
+	(sheetfile "bucks.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.635 -1.635)
+		(end -1.635 -1.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "db181e51-527f-465d-9675-917a5b7e5dcb")
+	)
+	(fp_line
+		(start -1.635 -1.635)
+		(end 1.635 -1.635)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c88b262f-8ed4-4262-a77e-4fbfb0c815d6")
+	)
+	(fp_line
+		(start -1.635 1.45)
+		(end -1.635 1.635)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "86274b07-311e-46e8-9b04-16f5c9bce07e")
+	)
+	(fp_line
+		(start -1.635 1.635)
+		(end 1.635 1.635)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cd7ddb25-043b-4548-8fa1-0dc38d17720c")
+	)
+	(fp_line
+		(start 1.635 -1.635)
+		(end 1.635 -1.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b2c93e7f-c792-4683-9953-f502e3898581")
+	)
+	(fp_line
+		(start 1.635 1.45)
+		(end 1.635 1.635)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a568e17b-7e58-4c42-be35-fefd232cedfb")
+	)
+	(fp_poly
+		(pts
+			(xy -2.355 -1.46) (xy -1.955 -1.86) (xy -1.955 -1.46)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "2099a6bf-02f6-41ee-befd-96ed3eff9147")
+	)
+	(fp_line
+		(start -2.18 -1.78)
+		(end -2.18 1.78)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d218da04-291f-41d4-a59d-132b82d6480e")
+	)
+	(fp_line
+		(start -2.18 -1.78)
+		(end 2.18 -1.78)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "747425b6-1378-4809-8c9e-8f9ac07e29db")
+	)
+	(fp_line
+		(start -2.18 1.78)
+		(end 2.18 1.78)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5481d399-3572-4372-8188-fbb8ce2597d5")
+	)
+	(fp_line
+		(start 2.18 -1.78)
+		(end 2.18 1.78)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "38a2308f-f2e1-4c5f-b22f-818a2c6d6a6f")
+	)
+	(fp_line
+		(start -1.525 -0.8)
+		(end -1.525 1.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "be02f58e-168e-40db-baef-dfea7eecd509")
+	)
+	(fp_line
+		(start -1.525 -0.8)
+		(end -0.8 -1.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f0ce1ed4-a2f0-4df8-af7f-81bc5d0b2a66")
+	)
+	(fp_line
+		(start -1.525 1.525)
+		(end 1.525 1.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "99719274-afc7-4cc0-bd87-77c64664a12e")
+	)
+	(fp_line
+		(start -0.8 -1.525)
+		(end 1.525 -1.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9906b1bb-e910-4141-9eb6-fb98cf6bdaad")
+	)
+	(fp_line
+		(start 1.525 -1.525)
+		(end 1.525 1.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "99021283-e75a-4f76-87a1-15d1df224838")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "30397f8c-0718-4652-a265-4dab2a9c6ec4")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.105)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at 0.5575 0)
+		(size 1.725 2.235)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 1.3725 -0.7875) (xy 0.8625 -0.7875) (xy 0.8625 -0.5325) (xy 1.3725 -0.5325) (xy 1.3725 -0.1275)
+					(xy 0.8625 -0.1275) (xy 0.8625 0.1275) (xy 1.3725 0.1275) (xy 1.3725 0.5325) (xy 0.8625 0.5325)
+					(xy 0.8625 0.7875) (xy 1.3725 0.7875) (xy 1.3725 1.195) (xy 0.6125 1.195) (xy 0.6125 -1.195) (xy 1.3725 -1.195)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "66971ff5-cd42-4186-b8ea-61cea03aa85d")
+	)
+	(pad "2" smd rect
+		(at -1.435 0.99)
+		(size 0.99 0.405)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b7faf02e-fc4a-48fb-9a65-fe3ccd8722ee")
+	)
+	(pad "3" smd rect
+		(at -1.435 -0.99)
+		(size 0.99 0.405)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fb81621d-16bf-4d45-8210-3192c3857ad1")
+	)
+	(pad "3" smd rect
+		(at -1.435 -0.33)
+		(size 0.99 0.405)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b804e2ce-fac4-4172-8a0e-6cf719a25cfb")
+	)
+	(pad "3" smd rect
+		(at -1.435 0.33)
+		(size 0.99 0.405)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "abceff30-6906-47cf-8c84-95e7344ff4f8")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/Vishay_PowerPAK_1212-8_Single.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

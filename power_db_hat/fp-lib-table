@@ -1,7 +1,8 @@
 (fp_lib_table
 	(version 7)
-	(lib (name "LDD-700LS") (type "KiCad") (uri "${KIPRJMOD}/Imported Components/LDD-700LS/LDD-700LS.pretty") (options "") (descr ""))
+	(lib (name "LDD-700LS") (type "KiCad") (uri "${KIPRJMOD}/Imported Components/LDD-700LS/KiCad") (options "") (descr ""))
 	(lib (name "B2B-Connectors") (type "KiCad") (uri "${KIPRJMOD}/b2b connectors/B2B-Connectors.pretty") (options "") (descr ""))
 	(lib (name "FDS6681Z") (type "KiCad") (uri "${KIPRJMOD}/Imported Components/FDS6681Z/FDS6681Z.pretty") (options "") (descr ""))
-	(lib (name "SiS468DN") (type "KiCad") (uri "${KIPRJMOD}/SiS468DN.pretty") (options "") (descr ""))
+	(lib (name "Terminal_Block_Custom") (type "KiCad") (uri "${KIPRJMOD}/Terminal_Block_Custom.pretty") (options "") (descr ""))
+	(lib (name "Si468DN") (type "KiCad") (uri "${KIPRJMOD}/Imported Components/Si468DN/Si468DN.pretty") (options "") (descr ""))
 )
