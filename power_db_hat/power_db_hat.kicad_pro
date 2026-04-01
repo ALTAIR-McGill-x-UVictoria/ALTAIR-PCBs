@@ -534,7 +534,7 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.3,
+        "clearance": 0.24,
         "name": "High Current",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
@@ -755,7 +755,7 @@
       "meta": {
         "version": 0
       },
-      "model_mode": 0,
+      "model_mode": 4,
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
