@@ -3101,6 +3101,12 @@
 		(uuid "92a6b5b1-adff-4448-96ea-f755799e8707")
 	)
 	(junction
+		(at 162.56 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93198843-cd85-42fa-8555-ca49e5c056a0")
+	)
+	(junction
 		(at 67.31 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3273,6 +3279,16 @@
 			(type default)
 		)
 		(uuid "0ee949c2-baee-4ee8-8351-4d2d06b83609")
+	)
+	(wire
+		(pts
+			(xy 138.43 66.04) (xy 138.43 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "133c5b75-3e94-42b3-b7b0-2af5e7fd93e0")
 	)
 	(wire
 		(pts
@@ -3546,16 +3562,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 63.5) (xy 139.7 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b879c9f-ac6d-4b02-8b05-575b07d7e3db")
-	)
-	(wire
-		(pts
 			(xy 254 119.38) (xy 254 124.46)
 		)
 		(stroke
@@ -3576,6 +3582,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 63.5) (xy 130.81 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d09fe45-fef7-4900-80fa-afe93cfefac0")
+	)
+	(wire
+		(pts
 			(xy 168.91 149.86) (xy 168.91 147.32)
 		)
 		(stroke
@@ -3593,6 +3609,16 @@
 			(type default)
 		)
 		(uuid "5ef31da5-4b8f-4ff2-9648-c9bfde5e47c6")
+	)
+	(wire
+		(pts
+			(xy 162.56 60.96) (xy 166.37 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "604d9f2a-a338-4874-9fe1-15d30233128a")
 	)
 	(wire
 		(pts
@@ -4026,7 +4052,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 63.5) (xy 130.81 63.5)
+			(xy 139.7 66.04) (xy 138.43 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4083,16 +4109,6 @@
 			(type default)
 		)
 		(uuid "ce902d06-9e66-43cc-b051-b477af8b727c")
-	)
-	(wire
-		(pts
-			(xy 165.1 60.96) (xy 173.99 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8b942ef-a42b-4dc3-8b9b-b91874856265")
 	)
 	(wire
 		(pts
@@ -4156,17 +4172,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 72.39) (xy 139.7 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dda69c52-04a1-4ea4-9ade-584889655d27")
-	)
-	(wire
-		(pts
-			(xy 148.59 60.96) (xy 157.48 60.96)
+			(xy 148.59 60.96) (xy 162.56 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4414,16 +4420,6 @@
 		)
 		(uuid "4c9d84de-dd7e-495a-8e21-56b53d1805d5")
 	)
-	(label "VBAT_24V"
-		(at 168.91 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4f6cce02-ed2b-454f-afd2-2e4ac000a54b")
-	)
 	(label "LED_PWM_1"
 		(at 245.11 49.53 180)
 		(effects
@@ -4574,6 +4570,16 @@
 		)
 		(uuid "df4cb735-0307-416d-9d3b-84be3c633ab1")
 	)
+	(label "VBAT_24V"
+		(at 173.99 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dfbf3db2-f67a-42d5-8e92-10a179cb2b55")
+	)
 	(label "SERVO_1"
 		(at 251.46 111.76 0)
 		(effects
@@ -4585,7 +4591,7 @@
 		(uuid "ea6e2450-c371-4b28-bf6a-9861293b1585")
 	)
 	(label "VBAT1+"
-		(at 139.7 68.58 0)
+		(at 139.7 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5197,6 +5203,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse")
+		(at 170.18 60.96 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c1cbdce-48cf-4b66-8b61-6da0a183d968")
+		(property "Reference" "F1"
+			(at 170.18 54.61 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FUSE_15A"
+			(at 170.18 57.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 170.18 62.738 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 170.18 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "35400001-8bb3-40ec-a461-c7e3503ab9f4")
+		)
+		(pin "2"
+			(uuid "1a971da8-1aab-4db6-afe8-2ffef81bc397")
+		)
+		(instances
+			(project "power_db_hat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 180.34 152.4 0)
 		(unit 1)
@@ -5276,7 +5362,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 173.99 64.77 270)
+		(at 162.56 64.77 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5287,7 +5373,7 @@
 		(fields_autoplaced yes)
 		(uuid "48b6a91b-66ca-4800-be42-c4b99d738d50")
 		(property "Reference" "D41"
-			(at 176.53 63.4999 90)
+			(at 165.1 63.4999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5298,7 +5384,7 @@
 			)
 		)
 		(property "Value" "TVS_26V"
-			(at 176.53 66.0399 90)
+			(at 165.1 66.0399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5308,8 +5394,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 173.99 64.77 0)
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
+			(at 162.56 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5320,7 +5406,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 64.77 0)
+			(at 162.56 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5331,7 +5417,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 173.99 64.77 0)
+			(at 162.56 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5554,7 +5640,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
 			(at 182.88 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -5713,7 +5799,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "INA3221:QFN65P400X400X100-17N-D"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 78.74 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -6921,7 +7007,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 173.99 68.58 0)
+		(at 162.56 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6932,7 +7018,7 @@
 		(fields_autoplaced yes)
 		(uuid "98f33049-1129-414f-b8d4-24748742eacf")
 		(property "Reference" "#PWR052"
-			(at 173.99 74.93 0)
+			(at 162.56 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6943,7 +7029,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 173.99 73.66 0)
+			(at 162.56 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6953,7 +7039,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 68.58 0)
+			(at 162.56 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6964,7 +7050,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 68.58 0)
+			(at 162.56 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6975,7 +7061,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 173.99 68.58 0)
+			(at 162.56 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7229,87 +7315,6 @@
 			(project "power_db_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS")
-		(at 148.59 68.58 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "acfa15cf-060f-4276-b9d1-a80e436be7c5")
-		(property "Reference" "D8"
-			(at 151.13 67.3099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TVS_13V"
-			(at 150.622 69.85 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
-			(at 148.59 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 148.59 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b09fe5bf-0520-4beb-ab1d-57248f50ccb4")
-		)
-		(pin "2"
-			(uuid "aa2ecc03-6abf-4ff7-b69f-13132b210195")
-		)
-		(instances
-			(project "power_db_hat"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -8683,7 +8688,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
 			(at 151.13 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8882,86 +8887,6 @@
 			(project "power_db_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 161.29 60.96 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef65bed8-be4f-481b-a1d4-74de06191d6a")
-		(property "Reference" "F1"
-			(at 161.29 54.61 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FUSE_15A"
-			(at 161.29 57.15 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 161.29 62.738 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 161.29 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d08d3052-c09d-4621-a57f-6ed45b45e630")
-		)
-		(pin "2"
-			(uuid "1e44dc0b-5544-4f27-af83-65f2c07c5312")
-		)
-		(instances
-			(project "power_db_hat"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "F1")
 					(unit 1)
 				)
 			)

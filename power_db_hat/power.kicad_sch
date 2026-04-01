@@ -1981,12 +1981,6 @@
 		(uuid "0fef3612-5cf9-4924-9ff2-4b5d648a78ad")
 	)
 	(junction
-		(at 85.09 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "15236f29-325e-4308-a993-1e1ea69e1a1c")
-	)
-	(junction
 		(at 88.9 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2112,12 +2106,6 @@
 		(color 0 0 0 0)
 		(uuid "fb556dac-e41b-4584-959d-094bc7ac5e1e")
 	)
-	(junction
-		(at 80.01 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff190511-92c0-45d7-be25-a8bed6aba3e8")
-	)
 	(wire
 		(pts
 			(xy 30.48 110.49) (xy 34.29 110.49)
@@ -2197,16 +2185,6 @@
 			(type default)
 		)
 		(uuid "1883d89b-78e3-4252-b2d1-c8f75dd0fa2c")
-	)
-	(wire
-		(pts
-			(xy 80.01 44.45) (xy 88.9 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19ab81d7-2fb3-4d90-828a-da0e18c0ca39")
 	)
 	(wire
 		(pts
@@ -2310,7 +2288,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 44.45) (xy 80.01 44.45)
+			(xy 77.47 44.45) (xy 88.9 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2397,16 +2375,6 @@
 			(type default)
 		)
 		(uuid "49818df8-b9ec-4849-a19d-cbdf9016d9d0")
-	)
-	(wire
-		(pts
-			(xy 85.09 41.91) (xy 85.09 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a04dd2a-b1a0-4cb8-be89-40a1018058f6")
 	)
 	(wire
 		(pts
@@ -2507,16 +2475,6 @@
 			(type default)
 		)
 		(uuid "6d286ec6-1bbf-4f15-88c9-66dbbeda5875")
-	)
-	(wire
-		(pts
-			(xy 80.01 44.45) (xy 80.01 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7011cd71-6116-4b95-90f6-9099eab7130c")
 	)
 	(wire
 		(pts
@@ -3465,7 +3423,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 220.98 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -4835,87 +4793,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener")
-		(at 80.01 59.69 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "92fb6a89-b6da-4463-a6a8-2207d39d5bc8")
-		(property "Reference" "D43"
-			(at 69.342 58.928 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TVS_26V"
-			(at 69.342 61.468 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 80.01 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 80.01 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "633b3ba9-9cd6-4eb9-ab3e-2de01fd63567")
-		)
-		(pin "2"
-			(uuid "34218176-27f0-4bba-9aad-bb091e757e89")
-		)
-		(instances
-			(project "power_db_hat"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fd5e5e33-5dc6-45b9-b42d-1fb287c03766"
-					(reference "D43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 248.92 50.8 0)
 		(unit 1)
@@ -4998,84 +4875,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 85.09 62.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98209dd5-21df-4ef6-a854-0259bedbcbb5")
-		(property "Reference" "#PWR043"
-			(at 85.09 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 85.09 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dd880db4-b5ef-49fb-aa3c-c7cc7c8ae507")
-		)
-		(instances
-			(project "power_db_hat"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fd5e5e33-5dc6-45b9-b42d-1fb287c03766"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 88.9 40.64 0)
 		(unit 1)
@@ -5151,87 +4950,6 @@
 			(project "power_db_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fd5e5e33-5dc6-45b9-b42d-1fb287c03766"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener")
-		(at 85.09 58.42 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b107b37f-db6d-43db-a76b-aa9aac8a8e4d")
-		(property "Reference" "D15"
-			(at 87.884 58.166 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TVS_26V"
-			(at 87.884 60.706 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 85.09 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 85.09 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e0353c02-d47e-496f-bb3c-28c6a8d70ed0")
-		)
-		(pin "2"
-			(uuid "f4a5f6a6-0902-4aae-9d2d-cd6cc93de12b")
-		)
-		(instances
-			(project "power_db_hat"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fd5e5e33-5dc6-45b9-b42d-1fb287c03766"
-					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -5669,7 +5387,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 93.98 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -6059,84 +5777,6 @@
 			(project "power_db_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fd5e5e33-5dc6-45b9-b42d-1fb287c03766"
 					(reference "#PWR090")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 80.01 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc80d6aa-45d3-4bb9-bb31-4e6b8df3c586")
-		(property "Reference" "#PWR08"
-			(at 80.01 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 80.01 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1fb29808-6a7c-4d8e-94d8-a424e27c06fe")
-		)
-		(instances
-			(project "power_db_hat"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fd5e5e33-5dc6-45b9-b42d-1fb287c03766"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
