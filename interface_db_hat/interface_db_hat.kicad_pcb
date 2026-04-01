@@ -126,12 +126,12 @@
 		(aux_axis_origin 100 100)
 		(grid_origin 100 100)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_00000000_000000a5)
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions yes)
-			(usegerberattributes no)
-			(usegerberadvancedattributes no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
 			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12)
 			(dashed_line_gap_ratio 3)
@@ -152,14 +152,14 @@
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
-			(sketchdnponfab yes)
-			(crossoutdnponfab yes)
+			(sketchdnponfab no)
+			(crossoutdnponfab no)
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Fabrication outputs/NC Drill/")
 		)
 	)
 	(footprint "TCA9617:DGK0008A"
@@ -11161,9 +11161,8 @@
 		(descr "https://www.cui.com/product/resource/cpt-9019s-smt.pdf")
 		(tags "buzzer piezo")
 		(property "Reference" "BZ1"
-			(at 0 -5.5 90)
+			(at 0 -5.5 270)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "1634b6cf-4838-41b9-a6f0-926dd68e058b")
 			(effects
 				(font
@@ -11173,9 +11172,8 @@
 			)
 		)
 		(property "Value" "Buzzer"
-			(at 0 5.5 90)
+			(at 0 5.5 270)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "056acfe3-f0bc-41d3-aef5-6d95a8ff0dad")
 			(effects
 				(font
@@ -11197,7 +11195,7 @@
 				)
 			)
 		)
-		(property "Description" "Buzzer, polarized"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11214,12 +11212,6 @@
 		(path "/6f650ca8-2cfb-4558-9596-ffa7c803e023")
 		(sheetname "/")
 		(sheetfile "interface_db_hat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11463,7 +11455,7 @@
 			(uuid "ed86036f-b7fb-4a80-9c0e-9f58064744d3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(uuid "fd02abd5-5676-4c9b-ab82-5f8590e6c415")
 			(effects
@@ -11492,7 +11484,7 @@
 			(uuid "0fa0cd9b-7d1d-45af-a7ae-acc401858729")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Buzzer_Beeper.3dshapes/Buzzer_CUI_CPT-9019S-SMT.step"
+		(model "${KIPRJMOD}/Imported Components/Buzzer/SMT-0952-T-5V-R_PUI.step"
 			(offset
 				(xyz 0 0 0)
 			)
