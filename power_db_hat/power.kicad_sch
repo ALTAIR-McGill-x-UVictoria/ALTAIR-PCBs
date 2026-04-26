@@ -1886,16 +1886,6 @@
 		)
 		(uuid "1fbbbb0c-c091-4e51-b391-a2f553f48dd1")
 	)
-	(text "TODO simulate\n"
-		(exclude_from_sim no)
-		(at 53.848 64.516 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "35e7117a-9799-4fe6-825c-c14fcbe1ae89")
-	)
 	(text "extra ground connector to \nsimplify BOM and save space\n"
 		(exclude_from_sim no)
 		(at 54.356 31.496 0)
@@ -1906,15 +1896,25 @@
 		)
 		(uuid "53f052c9-b91a-4a65-8992-85b58083372b")
 	)
-	(text "Short pin 1 to pin 2 (VDD) for OFF\nShort pin 1 to GND for ON"
+	(text "Switch J16:\n\nFloat → OFF\nGND → ON (~46mA)\n\nR28 (330Ω) limits LVD gate inrush\n1.5kΩ on pin 2 required - no series resistor on D11, direct short will destroy it\nTODO rev: add series resistor in series with D11 cathode to source to limit zener current\n"
 		(exclude_from_sim no)
-		(at 54.102 72.644 0)
+		(at 146.812 70.358 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "934f33e8-2413-4c5a-b304-9160d1612010")
+	)
+	(text "TL431 reference and cathode pins are reversed in the footprint. FIX THIS"
+		(exclude_from_sim no)
+		(at 222.504 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "aeec936b-0747-4e15-aef5-ea463bffbb4e")
 	)
 	(text "24V supply low voltage disconnect\n"
 		(exclude_from_sim no)
@@ -3930,7 +3930,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "330"
 			(at 232.664 57.912 90)
 			(show_name no)
 			(do_not_autoplace no)
