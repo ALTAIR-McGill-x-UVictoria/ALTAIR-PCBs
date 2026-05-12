@@ -2939,6 +2939,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "SDA AND SCL FLIPPED IN FIRST REVISION\n"
+		(exclude_from_sim no)
+		(at 46.99 120.142 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "241519ef-bc56-4669-adb5-92539309ac91")
+	)
 	(text "TODO \ncheck available components in lab\n"
 		(exclude_from_sim no)
 		(at 66.04 187.198 0)
@@ -4340,16 +4350,6 @@
 		)
 		(uuid "245ffebc-3db2-462f-8c02-6af42b828bc4")
 	)
-	(label "I2C_SCL"
-		(at 67.31 110.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "27527950-345a-422f-8063-6ea8b71e79c0")
-	)
 	(label "LED_PWM_1"
 		(at 236.22 119.38 180)
 		(effects
@@ -4359,6 +4359,16 @@
 			(justify right bottom)
 		)
 		(uuid "289d4a56-143c-4a62-9c4c-58655e25d9f9")
+	)
+	(label "I2C_SCL"
+		(at 67.31 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2ad9af8b-b4c0-4898-aa42-19deb533a532")
 	)
 	(label "MOTOR_2_A"
 		(at 241.3 59.69 180)
@@ -4540,6 +4550,16 @@
 		)
 		(uuid "a9ce7038-1420-4f19-a576-99982c97d999")
 	)
+	(label "I2C_SDA"
+		(at 67.31 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b2768c5b-1ac9-441d-a46c-2e907ebe734c")
+	)
 	(label "VBAT2-"
 		(at 130.81 63.5 0)
 		(effects
@@ -4549,16 +4569,6 @@
 			(justify left bottom)
 		)
 		(uuid "ba2c1f8f-aa5c-4dd5-a17a-c52609081dd2")
-	)
-	(label "I2C_SDA"
-		(at 67.31 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ce57f068-7166-4607-93e8-7d659680cddd")
 	)
 	(label "I2C_SDA"
 		(at 166.37 118.11 180)
