@@ -2874,6 +2874,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 15.24 143.51)
@@ -3004,6 +3119,12 @@
 		(uuid "42d8fe63-3332-4956-9c58-199c62544857")
 	)
 	(junction
+		(at 25.4 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "488aa620-ad54-43c1-8394-63996c944d90")
+	)
+	(junction
 		(at 31.75 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3056,6 +3177,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87bab5d8-7d5d-4408-91fb-8172659cbed6")
+	)
+	(junction
+		(at 33.02 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a5c4b1e-2296-4f60-9d68-7a043130438a")
 	)
 	(junction
 		(at 74.93 154.94)
@@ -3437,7 +3564,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 27.94) (xy 35.56 27.94)
+			(xy 31.75 27.94) (xy 33.02 27.94)
 		)
 		(stroke
 			(width 0)
@@ -3534,6 +3661,16 @@
 			(type default)
 		)
 		(uuid "2417b084-060f-4d17-9b96-3de9963d3467")
+	)
+	(wire
+		(pts
+			(xy 33.02 27.94) (xy 35.56 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2497604f-ae1a-427a-876a-b6ddc8c75e38")
 	)
 	(wire
 		(pts
@@ -4117,6 +4254,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 30.48) (xy 33.02 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f5882bf-9984-4349-8f8b-3333328a5ab9")
+	)
+	(wire
+		(pts
 			(xy 33.02 71.12) (xy 35.56 71.12)
 		)
 		(stroke
@@ -4407,7 +4554,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 171.45) (xy 30.48 171.45)
+			(xy 20.32 171.45) (xy 25.4 171.45)
 		)
 		(stroke
 			(width 0)
@@ -4524,6 +4671,16 @@
 			(type default)
 		)
 		(uuid "b08ed6b0-3dbd-46ad-8faf-2270d7e306ea")
+	)
+	(wire
+		(pts
+			(xy 33.02 30.48) (xy 33.02 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b640660c-875f-4eb1-829d-1b40cf203ba9")
 	)
 	(wire
 		(pts
@@ -4827,6 +4984,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 171.45) (xy 30.48 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2f7207a-ca56-4931-9f06-3472ba660af2")
+	)
+	(wire
+		(pts
 			(xy 196.85 69.85) (xy 200.66 69.85)
 		)
 		(stroke
@@ -4844,6 +5011,16 @@
 			(type default)
 		)
 		(uuid "e80bda84-f199-4c1d-a28e-5539ec2c509f")
+	)
+	(wire
+		(pts
+			(xy 25.4 163.83) (xy 25.4 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8a3ee65-5c31-4d30-808b-23af6d740163")
 	)
 	(wire
 		(pts
@@ -5781,7 +5958,7 @@
 			(uuid "75dde14d-026e-43ec-8f88-0a7e94dbf583")
 		)
 		(instances
-			(project "MI-CHAB-22-05-26-V0"
+			(project "Ion-0"
 				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
 					(reference "#PWR07")
 					(unit 1)
@@ -5859,7 +6036,7 @@
 			(uuid "74626de3-3d6b-4dac-9fab-909d08957ddc")
 		)
 		(instances
-			(project "MI-CHAB-22-05-26-V0"
+			(project "Ion-0"
 				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
 					(reference "#PWR034")
 					(unit 1)
@@ -5900,7 +6077,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_2x06_P1.00mm_Vertical"
 			(at 67.31 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -5970,7 +6147,7 @@
 			(uuid "7be1770a-6397-4e14-aa9b-4a448e5e475c")
 		)
 		(instances
-			(project "MI-CHAB-22-05-26-V0"
+			(project "Ion-0"
 				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
 					(reference "J4")
 					(unit 1)
@@ -6052,7 +6229,7 @@
 			(uuid "9785eab6-35da-4e02-b13f-51a567e894b1")
 		)
 		(instances
-			(project "MI-CHAB-22-05-26-V0"
+			(project "Ion-0"
 				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
 					(reference "C18")
 					(unit 1)
@@ -6134,7 +6311,7 @@
 			(uuid "d0e138d9-966f-448f-af8a-13c3b80a2151")
 		)
 		(instances
-			(project "MI-CHAB-22-05-26-V0"
+			(project "Ion-0"
 				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
 					(reference "C17")
 					(unit 1)
@@ -6212,7 +6389,7 @@
 			(uuid "2a0f55fe-4b61-428a-b45c-a5131e766cf7")
 		)
 		(instances
-			(project "MI-CHAB-22-05-26-V0"
+			(project "Ion-0"
 				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
 					(reference "#PWR054")
 					(unit 1)
@@ -6293,7 +6470,7 @@
 			(uuid "d9b11d5b-1f17-4847-9126-debcc73f48e8")
 		)
 		(instances
-			(project "MI-CHAB-22-05-26-V0"
+			(project "Ion-0"
 				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
 					(reference "R7")
 					(unit 1)
@@ -6333,7 +6510,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_2x23_P1.00mm_Vertical"
 			(at 95.25 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -6505,7 +6682,7 @@
 			(uuid "7bca8430-f228-42c1-9d53-471a40345bd6")
 		)
 		(instances
-			(project "MI-CHAB-22-05-26-V0"
+			(project "Ion-0"
 				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
 					(reference "J2")
 					(unit 1)
@@ -6584,7 +6761,7 @@
 			(uuid "eddabf81-2db3-4b4e-a066-cd801b6ca96f")
 		)
 		(instances
-			(project "MI-CHAB-22-05-26-V0"
+			(project "Ion-0"
 				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
 					(reference "#PWR015")
 					(unit 1)
@@ -6662,7 +6839,7 @@
 			(uuid "68f1ceeb-291d-4edb-a4be-d695768adacc")
 		)
 		(instances
-			(project "MI-CHAB-22-05-26-V0"
+			(project "Ion-0"
 				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
 					(reference "#PWR052")
 					(unit 1)
@@ -6743,7 +6920,7 @@
 			(uuid "26d0d315-7a17-4205-8674-60517ea7dc4a")
 		)
 		(instances
-			(project "MI-CHAB-22-05-26-V0"
+			(project "Ion-0"
 				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
 					(reference "R6")
 					(unit 1)
@@ -6821,7 +6998,7 @@
 			(uuid "d225f9e0-40fc-41e1-8849-67a5d1937e4c")
 		)
 		(instances
-			(project "MI-CHAB-22-05-26-V0"
+			(project "Ion-0"
 				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
 					(reference "#PWR056")
 					(unit 1)
@@ -6862,7 +7039,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_2x06_P1.00mm_Vertical"
 			(at 36.83 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -6932,7 +7109,7 @@
 			(uuid "d8d7ec3f-a851-4c37-aa27-b6822800899e")
 		)
 		(instances
-			(project "MI-CHAB-22-05-26-V0"
+			(project "Ion-0"
 				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
 					(reference "J3")
 					(unit 1)
@@ -7014,7 +7191,7 @@
 			(uuid "6b246853-0cbd-4e43-b111-ab87d2290fe5")
 		)
 		(instances
-			(project "MI-CHAB-22-05-26-V0"
+			(project "Ion-0"
 				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
 					(reference "C16")
 					(unit 1)
@@ -7054,7 +7231,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_2x23_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_2x23_P1.00mm_Vertical"
 			(at 40.64 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -7226,7 +7403,7 @@
 			(uuid "450599bd-8ca9-490e-b80d-ed8a6c996007")
 		)
 		(instances
-			(project "MI-CHAB-22-05-26-V0"
+			(project "Ion-0"
 				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
 					(reference "J1")
 					(unit 1)
@@ -7305,7 +7482,7 @@
 			(uuid "8361a3be-9aec-4419-8535-6684bda340ce")
 		)
 		(instances
-			(project "MI-CHAB-22-05-26-V0"
+			(project "Ion-0"
 				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
 					(reference "#PWR05")
 					(unit 1)
@@ -7384,7 +7561,7 @@
 			(uuid "60264ef5-bb4e-4ae0-88aa-f84d69088fc7")
 		)
 		(instances
-			(project "MI-CHAB-22-05-26-V0"
+			(project "Ion-0"
 				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
 					(reference "#PWR06")
 					(unit 1)
@@ -7466,7 +7643,7 @@
 			(uuid "d8d38f77-4136-42d8-b021-42a4e7fc4cdb")
 		)
 		(instances
-			(project "MI-CHAB-22-05-26-V0"
+			(project "Ion-0"
 				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
 					(reference "C15")
 					(unit 1)
@@ -7544,7 +7721,7 @@
 			(uuid "e102a91e-98a2-4a7e-9633-adde5a253b98")
 		)
 		(instances
-			(project "MI-CHAB-22-05-26-V0"
+			(project "Ion-0"
 				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
 					(reference "#PWR049")
 					(unit 1)
@@ -7626,7 +7803,7 @@
 			(uuid "4735d553-d860-4ffe-817f-5ed6c93c7ec6")
 		)
 		(instances
-			(project "MI-CHAB-22-05-26-V0"
+			(project "Ion-0"
 				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
 					(reference "C14")
 					(unit 1)
@@ -7706,7 +7883,7 @@
 			(uuid "e3305330-8d19-4dc0-8ef7-9998e41ed71f")
 		)
 		(instances
-			(project "MI-CHAB-22-05-26-V0"
+			(project "Ion-0"
 				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
 					(reference "#PWR01")
 					(unit 1)
@@ -7784,7 +7961,7 @@
 			(uuid "015b5cbc-c2a7-4b89-b039-75826ca71491")
 		)
 		(instances
-			(project "MI-CHAB-22-05-26-V0"
+			(project "Ion-0"
 				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
 					(reference "#PWR050")
 					(unit 1)
@@ -7862,7 +8039,7 @@
 			(uuid "a2c6eb4f-83ab-4b1f-b028-840219a84e24")
 		)
 		(instances
-			(project "MI-CHAB-22-05-26-V0"
+			(project "Ion-0"
 				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
 					(reference "#PWR053")
 					(unit 1)
@@ -7940,7 +8117,7 @@
 			(uuid "0f9fa19f-53b6-4588-b401-63568276ff37")
 		)
 		(instances
-			(project "MI-CHAB-22-05-26-V0"
+			(project "Ion-0"
 				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
 					(reference "#PWR08")
 					(unit 1)
@@ -8021,7 +8198,7 @@
 			(uuid "0b6eb170-4998-499f-925e-372ec5f902fc")
 		)
 		(instances
-			(project "MI-CHAB-22-05-26-V0"
+			(project "Ion-0"
 				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
 					(reference "R19")
 					(unit 1)
@@ -8102,7 +8279,7 @@
 			(uuid "8df15601-583e-43b8-9134-f3e982b3c6dd")
 		)
 		(instances
-			(project "MI-CHAB-22-05-26-V0"
+			(project "Ion-0"
 				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
 					(reference "R20")
 					(unit 1)
@@ -8112,7 +8289,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 33.02 27.94 90)
+		(at 31.75 27.94 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8123,7 +8300,7 @@
 		(fields_autoplaced yes)
 		(uuid "c57b3c06-807f-4b27-a848-10de988e8b6e")
 		(property "Reference" "#PWR010"
-			(at 36.83 27.94 0)
+			(at 35.56 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8134,7 +8311,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 29.21 27.9399 90)
+			(at 27.94 27.9399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8145,7 +8322,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 27.94 0)
+			(at 31.75 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8156,7 +8333,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 27.94 0)
+			(at 31.75 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8167,7 +8344,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 33.02 27.94 0)
+			(at 31.75 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8181,7 +8358,7 @@
 			(uuid "47a5ffb0-eccb-4af2-a76f-b945317c6d53")
 		)
 		(instances
-			(project "MI-CHAB-22-05-26-V0"
+			(project "Ion-0"
 				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
 					(reference "#PWR010")
 					(unit 1)
@@ -8263,7 +8440,7 @@
 			(uuid "53e86365-7b8f-42b2-8d02-16b8c9030f8b")
 		)
 		(instances
-			(project "MI-CHAB-22-05-26-V0"
+			(project "Ion-0"
 				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
 					(reference "C13")
 					(unit 1)
@@ -8341,7 +8518,7 @@
 			(uuid "709d957a-f3c8-438d-8455-e1459b72f86c")
 		)
 		(instances
-			(project "MI-CHAB-22-05-26-V0"
+			(project "Ion-0"
 				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
 					(reference "#PWR051")
 					(unit 1)
@@ -8419,7 +8596,7 @@
 			(uuid "aa47918d-3094-464e-8b54-2ab3b81e8424")
 		)
 		(instances
-			(project "MI-CHAB-22-05-26-V0"
+			(project "Ion-0"
 				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
 					(reference "#PWR09")
 					(unit 1)
@@ -8497,7 +8674,7 @@
 			(uuid "779c3f69-db1f-4c04-ad5c-f0950bf3fba6")
 		)
 		(instances
-			(project "MI-CHAB-22-05-26-V0"
+			(project "Ion-0"
 				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
 					(reference "#PWR04")
 					(unit 1)
@@ -8575,7 +8752,7 @@
 			(uuid "f80ed1d7-f2cf-48fa-b11a-d509cb0d36f9")
 		)
 		(instances
-			(project "MI-CHAB-22-05-26-V0"
+			(project "Ion-0"
 				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
 					(reference "#PWR03")
 					(unit 1)
@@ -8616,7 +8793,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_2x06_P1.00mm_Vertical"
 			(at 147.32 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -8686,9 +8863,166 @@
 			(uuid "497fbc46-e333-499c-b2f5-ac4e13d34b60")
 		)
 		(instances
-			(project "MI-CHAB-22-05-26-V0"
+			(project "Ion-0"
 				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 25.4 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f38945fc-0b56-438d-a28b-fbe824f52d21")
+		(property "Reference" "#FLG01"
+			(at 25.4 161.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 25.4 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 25.4 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bfdade0a-3d60-47f8-8960-4c3844e82ad0")
+		)
+		(instances
+			(project "Ion-0"
+				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 31.75 30.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f40e0923-1711-4f98-a98a-06e04a546f29")
+		(property "Reference" "#FLG02"
+			(at 29.845 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 27.94 30.4799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 31.75 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ddb79f33-a832-49ae-a379-8c6a050d7654")
+		)
+		(instances
+			(project "Ion-0"
+				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -8765,7 +9099,7 @@
 			(uuid "e177f630-9e1f-43de-a2c9-c358b5d8401b")
 		)
 		(instances
-			(project "MI-CHAB-22-05-26-V0"
+			(project "Ion-0"
 				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
 					(reference "#PWR011")
 					(unit 1)
@@ -8843,7 +9177,7 @@
 			(uuid "9e1c0b2b-a877-48ab-b436-e8f5424e6d74")
 		)
 		(instances
-			(project "MI-CHAB-22-05-26-V0"
+			(project "Ion-0"
 				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
 					(reference "#PWR055")
 					(unit 1)
@@ -9150,7 +9484,7 @@
 			)
 		)
 		(instances
-			(project "MI-CHAB-22-05-26-V0"
+			(project "Ion-0"
 				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
 					(page "2")
 				)
