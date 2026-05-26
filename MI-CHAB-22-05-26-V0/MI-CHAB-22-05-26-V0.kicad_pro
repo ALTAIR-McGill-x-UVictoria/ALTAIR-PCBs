@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "May26-V0"
+      "sch_revision": "May26-V0.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -648,7 +648,7 @@
         "uuid": "8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J7-14,Q3-4,U4,D1-9,C12,C20-22,R1-3,R23,R26-40,#PWR1,#PWR5-6,#PWR14,#PWR26,#PWR33,#PWR64-84",
     "variants": []
   },
   "sheets": [
