@@ -689,7 +689,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "${EXCLUDE_FROM_BOM}"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -732,7 +732,7 @@
         "uuid": "8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
       }
     ],
-    "used_designators": "#FLG1-5,Y2,U1,U3-4,U6-7,U9",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
