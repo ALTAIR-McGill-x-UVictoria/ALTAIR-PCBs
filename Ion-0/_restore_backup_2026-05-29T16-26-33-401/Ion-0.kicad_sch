@@ -3209,12 +3209,6 @@
 		(uuid "a1088aed-6853-401f-8f73-17293de0a7ad")
 	)
 	(junction
-		(at 52.07 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a1e2d667-7b63-40d1-8bc9-c7971192f0f2")
-	)
-	(junction
 		(at 74.93 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3327,8 +3321,8 @@
 		(uuid "46c24763-d4bd-4582-a6cd-23e05277683e")
 	)
 	(no_connect
-		(at 33.02 35.56)
-		(uuid "4e778e2b-881f-4bf9-b29a-0c8f6b3ae154")
+		(at 102.87 69.85)
+		(uuid "4d594506-1969-4303-a0c5-fec4284b3ef1")
 	)
 	(no_connect
 		(at 102.87 31.75)
@@ -3353,10 +3347,6 @@
 	(no_connect
 		(at 35.56 60.96)
 		(uuid "68087321-66fb-4d95-91f2-9f6afbb3476b")
-	)
-	(no_connect
-		(at 33.02 38.1)
-		(uuid "69a86137-7e3e-40e8-a492-e547cae8da25")
 	)
 	(no_connect
 		(at 102.87 34.29)
@@ -3389,6 +3379,10 @@
 	(no_connect
 		(at 90.17 29.21)
 		(uuid "9a91610a-6d19-4996-b29e-6c64874d61af")
+	)
+	(no_connect
+		(at 90.17 69.85)
+		(uuid "a2a94d7d-7505-453d-936f-3668662a0462")
 	)
 	(no_connect
 		(at 102.87 46.99)
@@ -4190,26 +4184,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 69.85) (xy 105.41 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65963682-085b-4729-b845-a81c4ae4bb55")
-	)
-	(wire
-		(pts
-			(xy 52.07 60.96) (xy 57.15 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66206029-fb33-4f45-95e0-0be8f64a5862")
-	)
-	(wire
-		(pts
 			(xy 179.07 59.69) (xy 179.07 50.8)
 		)
 		(stroke
@@ -4307,16 +4281,6 @@
 			(type default)
 		)
 		(uuid "73e39a56-3ce8-41e4-accf-7a3d23a92a9b")
-	)
-	(wire
-		(pts
-			(xy 87.63 69.85) (xy 90.17 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7772bff5-7e8b-4911-8a47-5e6d2c13e60b")
 	)
 	(wire
 		(pts
@@ -4530,16 +4494,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 55.88) (xy 58.42 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95144a14-e002-4487-8ca3-20c73f136ca8")
-	)
-	(wire
-		(pts
 			(xy 142.24 168.91) (xy 135.89 168.91)
 		)
 		(stroke
@@ -4580,7 +4534,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 60.96) (xy 52.07 60.96)
+			(xy 48.26 60.96) (xy 50.8 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5499,12 +5453,12 @@
 		(uuid "631ce816-2957-430f-99b6-f98af4c6f84c")
 	)
 	(label "UART4_RXD"
-		(at 105.41 69.85 0)
+		(at 33.02 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "66165800-ec4e-426b-83eb-f4bff7dac3a8")
 	)
@@ -5812,7 +5766,7 @@
 		(uuid "d7f6576c-bf97-45eb-a124-6013e6f50176")
 	)
 	(label "UART4_TXD"
-		(at 87.63 69.85 180)
+		(at 33.02 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5933,85 +5887,6 @@
 			(justify right bottom)
 		)
 		(uuid "fdff47fd-4b82-4634-ba9b-9deb5534a620")
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 52.07 58.42 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "04504ec7-6b3c-4b55-a9bc-c82f98ee27af")
-		(property "Reference" "C23"
-			(at 55.626 56.896 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1uF"
-			(at 55.626 59.182 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 52.07 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 52.07 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "70a47594-f26e-496f-9b3a-362aee51ff80")
-		)
-		(pin "1"
-			(uuid "66c2a5be-c614-48de-9a08-87ac3b7517a8")
-		)
-		(instances
-			(project "Ion-0"
-				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -7538,7 +7413,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 57.15 60.96 270)
+		(at 50.8 60.96 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7549,7 +7424,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d96845d-9314-4cf2-aca3-bf3cea4cc5b5")
 		(property "Reference" "#PWR05"
-			(at 53.34 60.96 0)
+			(at 46.99 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7560,7 +7435,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 60.96 60.9599 90)
+			(at 54.61 60.9599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7571,7 +7446,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 60.96 0)
+			(at 50.8 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7582,7 +7457,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 60.96 0)
+			(at 50.8 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7593,7 +7468,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 57.15 60.96 0)
+			(at 50.8 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7849,85 +7724,6 @@
 			(project "Ion-0"
 				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
 					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 58.42 55.88 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83db82a1-2c68-4cd8-9e48-25258b647f89")
-		(property "Reference" "#PWR085"
-			(at 64.77 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 62.23 55.8799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "33949b20-6e8e-4007-a4bb-34730891f805")
-		)
-		(instances
-			(project "Ion-0"
-				(path "/8323d88f-a402-4af7-9e3a-bb7cf2dffd76"
-					(reference "#PWR085")
 					(unit 1)
 				)
 			)
