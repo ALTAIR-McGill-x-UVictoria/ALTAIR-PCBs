@@ -1651,7 +1651,7 @@
 		(at 72.39 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b223591a-97d5-4648-8d67-b330a4df58ec")
+		(uuid "b6c83025-ed16-45c8-9ca3-5049e5abd828")
 	)
 	(junction
 		(at 157.48 114.3)
@@ -1731,7 +1731,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 49.53) (xy 31.75 49.53)
+			(xy 46.99 49.53) (xy 49.53 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1881,7 +1881,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 49.53) (xy 29.21 54.61)
+			(xy 46.99 49.53) (xy 46.99 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1901,7 +1901,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 49.53) (xy 72.39 49.53)
+			(xy 54.61 49.53) (xy 72.39 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2020,7 +2020,7 @@
 		(uuid "c323c066-0b62-494d-95ef-cebbad82600c")
 	)
 	(label "GPS_SIG"
-		(at 40.64 49.53 0)
+		(at 54.61 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3054,7 +3054,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 34.29 49.53 180)
+		(at 52.07 49.53 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3065,7 +3065,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1b6c142-7cb7-4709-81d1-0599f33a1b45")
 		(property "Reference" "J4"
-			(at 34.8095 43.18 0)
+			(at 52.5895 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3075,7 +3075,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial_Small"
-			(at 34.8095 45.72 0)
+			(at 52.5895 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3085,7 +3085,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
-			(at 34.29 49.53 0)
+			(at 52.07 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3096,7 +3096,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 49.53 0)
+			(at 52.07 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3107,7 +3107,7 @@
 			)
 		)
 		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 34.29 49.53 0)
+			(at 52.07 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3291,7 +3291,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 29.21 54.61 0)
+		(at 46.99 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3302,7 +3302,7 @@
 		(fields_autoplaced yes)
 		(uuid "d19f7a61-4906-4723-a129-bab25be10e2f")
 		(property "Reference" "#PWR025"
-			(at 29.21 60.96 0)
+			(at 46.99 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3313,7 +3313,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 29.21 59.69 0)
+			(at 46.99 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3323,7 +3323,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 54.61 0)
+			(at 46.99 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3334,7 +3334,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 54.61 0)
+			(at 46.99 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3345,7 +3345,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 54.61 0)
+			(at 46.99 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

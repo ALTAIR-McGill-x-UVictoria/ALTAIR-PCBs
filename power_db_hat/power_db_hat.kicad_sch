@@ -3512,16 +3512,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 49.53) (xy 248.92 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "476bcddc-1763-4ae2-83af-4f96630ce17d")
-	)
-	(wire
-		(pts
 			(xy 156.21 154.94) (xy 156.21 162.56)
 		)
 		(stroke
@@ -3709,6 +3699,16 @@
 			(type default)
 		)
 		(uuid "752a3d54-8c41-41da-8832-99fd0273ba1c")
+	)
+	(wire
+		(pts
+			(xy 243.84 72.39) (xy 248.92 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75b87978-9aa0-49bd-8759-f1f65713b2b4")
 	)
 	(wire
 		(pts
@@ -3929,16 +3929,6 @@
 			(type default)
 		)
 		(uuid "a3ce90d2-ae01-481e-b537-08b29ecc021c")
-	)
-	(wire
-		(pts
-			(xy 245.11 46.99) (xy 248.92 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a652e98e-c5ca-4604-852e-b11894515a31")
 	)
 	(wire
 		(pts
@@ -4292,6 +4282,26 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 74.93) (xy 248.92 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1ba3357-a73a-4640-9e05-30ed69d98807")
+	)
+	(wire
+		(pts
+			(xy 243.84 69.85) (xy 248.92 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f292f6ef-7fe2-432f-ac61-d3aaa4440869")
+	)
+	(wire
+		(pts
 			(xy 275.59 116.84) (xy 267.97 116.84)
 		)
 		(stroke
@@ -4319,6 +4329,16 @@
 			(type default)
 		)
 		(uuid "fbf6414a-aecc-4080-aae9-9eb0ec7c0c60")
+	)
+	(label "LED_PWM_1"
+		(at 245.11 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "01aade9d-2f53-4553-b3cd-9077fa71b83b")
 	)
 	(label "I2C_SCL"
 		(at 186.69 118.11 0)
@@ -4380,16 +4400,6 @@
 		)
 		(uuid "2b782854-8608-487d-b880-1e73d26e75f9")
 	)
-	(label "LED_PWM_2"
-		(at 245.11 46.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3a1d39db-ecc4-4da4-a282-223ae4cfcd4e")
-	)
 	(label "VBAT1+"
 		(at 133.35 33.02 0)
 		(effects
@@ -4430,15 +4440,15 @@
 		)
 		(uuid "4c9d84de-dd7e-495a-8e21-56b53d1805d5")
 	)
-	(label "LED_PWM_1"
-		(at 245.11 49.53 180)
+	(label "I2C_SDA"
+		(at 243.84 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "66453051-6a1d-42b0-9cdb-fbc401bced59")
+		(uuid "4fe78738-1e22-4676-af3a-52968166bc16")
 	)
 	(label "MOTOR_1_A"
 		(at 232.41 111.76 180)
@@ -4459,6 +4469,16 @@
 			(justify right bottom)
 		)
 		(uuid "782ddb2e-8f85-4a89-8145-3f4dee2f0202")
+	)
+	(label "I2C_SCL"
+		(at 243.84 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "820d883d-b5b1-4466-8416-03cb6cbf0c76")
 	)
 	(label "IND"
 		(at 87.63 156.21 0)
@@ -9143,7 +9163,7 @@
 	)
 	(sheet
 		(at 248.92 38.735)
-		(size 12.7 32.385)
+		(size 20.955 41.275)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9169,7 +9189,7 @@
 			)
 		)
 		(property "Sheetfile" "servos+gpio.kicad_sch"
-			(at 248.92 71.7046 0)
+			(at 248.92 80.5946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9177,26 +9197,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "LED_PWM_1" input
-			(at 248.92 49.53 180)
-			(uuid "5718549d-8733-497f-87d1-7a18f7b9fa16")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "LED_PWM_2" input
-			(at 248.92 46.99 180)
-			(uuid "204f0074-672a-4773-adda-97f4c36f9a2b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "MOTOR_1_A" input
@@ -9252,6 +9252,36 @@
 		(pin "PWM_2" input
 			(at 248.92 43.18 180)
 			(uuid "fdeba52e-0785-4b0f-9680-5cb0d4b57b95")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SCL" input
+			(at 248.92 69.85 180)
+			(uuid "7954a05c-5f70-4992-85f0-25ea09bdd417")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SDA" input
+			(at 248.92 72.39 180)
+			(uuid "f128625e-3b42-4d48-87e5-515533aa4154")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{LDAC}" input
+			(at 248.92 74.93 180)
+			(uuid "3e3e6905-b67b-44b9-bd16-d6071fb58a62")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -784,7 +784,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR7,#PWR9-10,#PWR12,#PWR17,#PWR28-29,#PWR39,#PWR89-91,U3,U10,R18-19,J15-16,C47-50",
     "variants": []
   },
   "sheets": [
@@ -803,6 +803,10 @@
     [
       "20933ded-028e-4f23-a623-7ef7f7bb954e",
       "test_points_and_indicators"
+    ],
+    [
+      "6906e4b4-fd4f-401e-9187-e3e1330d126c",
+      "photodiode"
     ]
   ],
   "text_variables": {},
