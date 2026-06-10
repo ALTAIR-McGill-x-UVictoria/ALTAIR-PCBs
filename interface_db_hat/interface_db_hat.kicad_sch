@@ -3116,183 +3116,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Buzzer"
-			(pin_names
-				(offset 0.0254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "BZ"
-				(at 3.81 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Buzzer"
-				(at 3.81 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -0.635 2.54 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at -0.635 2.54 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Buzzer, polarized"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "quartz resonator ceramic"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*Buzzer*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Buzzer_0_1"
-				(polyline
-					(pts
-						(xy -1.651 1.905) (xy -1.143 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.397 2.159) (xy -1.397 1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 3.175)
-					(mid 3.1612 0)
-					(end 0 -3.175)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.175) (xy 0 -3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Buzzer_1_1"
-				(pin passive line
-					(at -2.54 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3793,249 +3616,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Transistor_BJT:BC817"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "BC817"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "NPN"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=B 2=E 3=C"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "NPN Transistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "BC817_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BC817_1_1"
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4749,16 +4329,6 @@
 		)
 		(uuid "4da8fef6-b957-48f7-9c2c-9ea8ed5bd294")
 	)
-	(text "TODO ESC CONNECTIONS"
-		(exclude_from_sim no)
-		(at 185.928 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "85bdc161-8a9b-48f6-9267-bbd655ca6790")
-	)
 	(junction
 		(at 250.19 27.94)
 		(diameter 0)
@@ -4808,22 +4378,10 @@
 		(uuid "58cd9e6e-945e-48fc-ac23-575bc15203d6")
 	)
 	(junction
-		(at 171.45 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c1c51b6-702c-4c3d-abd9-461153194df2")
-	)
-	(junction
 		(at 57.15 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b945003-fd04-4cb9-b478-45906b358947")
-	)
-	(junction
-		(at 171.45 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "73f7febc-1613-4199-8d17-d4deb1eda418")
 	)
 	(junction
 		(at 66.04 132.08)
@@ -4956,16 +4514,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc20852b-3eb3-4ddb-9ac2-398e156626f5")
-	)
-	(wire
-		(pts
-			(xy 166.37 106.68) (xy 171.45 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0099ae78-fd63-4e8b-a3f8-94ac2e85ca5c")
 	)
 	(wire
 		(pts
@@ -5239,16 +4787,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 113.03) (xy 147.32 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2da15cb8-741b-44c0-8307-4099fd5fbef4")
-	)
-	(wire
-		(pts
 			(xy 67.31 142.24) (xy 67.31 137.16)
 		)
 		(stroke
@@ -5409,16 +4947,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 99.06) (xy 171.45 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40b76449-75f3-4a4f-95f1-1f1ffb4bd176")
-	)
-	(wire
-		(pts
 			(xy 223.52 38.1) (xy 228.6 38.1)
 		)
 		(stroke
@@ -5566,16 +5094,6 @@
 			(type default)
 		)
 		(uuid "5f49c0fe-da1f-46c0-b910-cb37015645cf")
-	)
-	(wire
-		(pts
-			(xy 171.45 105.41) (xy 171.45 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "623f4e66-69ce-46f3-9307-2f3762f18993")
 	)
 	(wire
 		(pts
@@ -5859,16 +5377,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 118.11) (xy 171.45 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f3a5fc2-7f58-4a5b-bf4c-2cdc54fc457b")
-	)
-	(wire
-		(pts
 			(xy 255.27 118.11) (xy 255.27 123.19)
 		)
 		(stroke
@@ -5949,16 +5457,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 106.68) (xy 171.45 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a37b2300-b299-4cef-88e1-94f63d37c005")
-	)
-	(wire
-		(pts
 			(xy 95.25 53.34) (xy 99.06 53.34)
 		)
 		(stroke
@@ -5976,16 +5474,6 @@
 			(type default)
 		)
 		(uuid "a4692f69-dff6-4455-998d-ff0e2ce65954")
-	)
-	(wire
-		(pts
-			(xy 171.45 97.79) (xy 171.45 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4d68df2-93a7-496e-82d0-599c22f23f80")
 	)
 	(wire
 		(pts
@@ -6136,16 +5624,6 @@
 			(type default)
 		)
 		(uuid "c2a17cd6-c0a3-4e49-a137-f2a8a97df2dd")
-	)
-	(wire
-		(pts
-			(xy 154.94 113.03) (xy 163.83 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c302fd08-90ee-4053-99fc-74be4a12a6c6")
 	)
 	(wire
 		(pts
@@ -6336,16 +5814,6 @@
 			(type default)
 		)
 		(uuid "ec1e0bbf-3712-4d0d-aa13-d3c5f4320dd4")
-	)
-	(wire
-		(pts
-			(xy 171.45 99.06) (xy 171.45 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2c77d83-286b-443d-8ed7-60bdb854fb72")
 	)
 	(wire
 		(pts
@@ -6836,16 +6304,6 @@
 			(justify right bottom)
 		)
 		(uuid "8e9f972a-330c-45dd-9277-79cea11790ba")
-	)
-	(label "BUZZER"
-		(at 143.51 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "92cdc785-5216-41d0-9bec-b40f8b36ad1c")
 	)
 	(label "INT_HLD"
 		(at 45.72 58.42 180)
@@ -7338,84 +6796,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 171.45 120.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0403436b-7413-496b-8557-6c36a4ae3352")
-		(property "Reference" "#PWR058"
-			(at 171.45 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 171.45 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "597c43b7-9efa-4e4c-9bdf-8c1b5fd5b89a")
-		)
-		(instances
-			(project "interface_db_hat"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 232.41 66.04 90)
 		(unit 1)
@@ -7577,86 +6957,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 151.13 113.03 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ec1be1c-35d4-4844-bf14-b1a6054763ba")
-		(property "Reference" "R15"
-			(at 151.13 106.68 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 151.13 109.22 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 151.384 112.014 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 151.13 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "90609fc7-9a81-4553-8b4d-17f0a1471a30")
-		)
-		(pin "1"
-			(uuid "dfcf463f-4efc-4030-85da-b24dc470a51b")
-		)
-		(instances
-			(project "interface_db_hat"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
 		(at 232.41 35.56 90)
 		(unit 1)
 		(body_style 1)
@@ -7729,83 +7029,6 @@
 			(project "interface_db_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 171.45 97.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "312b2eaa-6dfb-45cc-8e21-a28462252445")
-		(property "Reference" "#PWR051"
-			(at 171.45 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 171.45 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 171.45 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "78ddf873-84bb-4588-bc69-253e0328dafd")
-		)
-		(instances
-			(project "interface_db_hat"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -8672,88 +7895,6 @@
 			(project "interface_db_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Buzzer")
-		(at 173.99 102.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f650ca8-2cfb-4558-9596-ffa7c803e023")
-		(property "Reference" "BZ1"
-			(at 177.8 101.5999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Buzzer"
-			(at 177.8 104.1399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Buzzer_Beeper:Buzzer_CUI_CPT-9019S-SMT"
-			(at 173.355 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.355 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Buzzer, polarized"
-			(at 173.99 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a4263b53-b298-41e0-a2aa-8a6a9ecce3f1")
-		)
-		(pin "2"
-			(uuid "64059338-a7bf-40fb-8b5c-353c3991aebd")
-		)
-		(instances
-			(project "interface_db_hat"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "BZ1")
 					(unit 1)
 				)
 			)
@@ -10664,116 +9805,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BC817")
-		(at 168.91 113.03 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cca0d8cb-3e56-4b51-b239-f26abc136de1")
-		(property "Reference" "Q1"
-			(at 173.99 111.7599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC817"
-			(at 173.99 114.2999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 173.99 114.935 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
-			(at 168.91 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
-			(at 168.91 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 168.91 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 168.91 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9430d1e6-6c4d-44f7-b8aa-cad797688684")
-		)
-		(pin "3"
-			(uuid "956762de-3634-4960-a841-35dddc1c78e2")
-		)
-		(pin "2"
-			(uuid "e86a067a-f19e-490b-9784-9e0dfc109e4c")
-		)
-		(instances
-			(project "interface_db_hat"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 232.41 81.28 90)
 		(unit 1)
@@ -11400,87 +10431,6 @@
 			(project "interface_db_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 166.37 102.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f814604d-2bb9-4204-8bdb-726c455d2bcb")
-		(property "Reference" "R17"
-			(at 159.258 101.092 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "330"
-			(at 159.258 103.632 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 167.386 103.124 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 166.37 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b02c19d9-1282-4100-abc3-af575f10b032")
-		)
-		(pin "1"
-			(uuid "20d7bda6-afec-467c-bb88-daabf59f6f3b")
-		)
-		(instances
-			(project "interface_db_hat"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R17")
 					(unit 1)
 				)
 			)

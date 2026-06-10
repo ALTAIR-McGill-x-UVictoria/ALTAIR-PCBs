@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TMUX1209PWR'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TMUX1209PWR" (!) = "", "SOP65P640X120-16N", "Small Outline Packages", "595-TMUX1209PWR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMUX1209PWR?qs=l7cgNqFNU1gbdZeh0oWOOQ%3D%3D", "TMUX1209PWR", "https://www.arrow.com/en/products/tmux1209pwr/texas-instruments?utm_currency=USD&region=europe", "2-ch, 4:1 general purpose analog multiplexer with 1.8-V logic control", "http://www.ti.com/lit/gpn/TMUX1209", "1.2 mm"
+END_PART
+
+END.

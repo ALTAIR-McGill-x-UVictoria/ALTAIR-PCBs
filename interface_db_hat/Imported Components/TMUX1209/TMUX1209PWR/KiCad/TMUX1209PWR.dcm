@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TMUX1209PWR
+D 2-ch, 4:1 general purpose analog multiplexer with 1.8-V logic control
+K
+F http://www.ti.com/lit/gpn/TMUX1209
+$ENDCMP
+#
+#End Doc Library

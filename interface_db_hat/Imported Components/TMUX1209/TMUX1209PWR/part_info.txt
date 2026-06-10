@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TMUX1209PWR
+PartCategory=Undefined or Miscellaneous
+PackageCategory=Small Outline Packages
+PinCount=16
+Version=1.1
+Released=2019-04-26 12:31:30
+Downloaded=2026-06-10 13:55:27
+3D=Y

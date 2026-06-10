@@ -1,0 +1,18 @@
+.TMUX1209PWR :1 ;2-ch, 4:1 general purpose analog multiplexer with 1.8-V logic control
+SOP65P640X120-16N
+*STM U
+*NGS
+*PLB 1="A0" 2="EN" 3="NC" 4="S1A" 5="S2A" 6="S3A" 7="S4A" 8="DA" 9="DB" 10="S4B" 11="S3B" 12="S2B" 13="S1B" 14="VDD" 15="GND" 16="A1"
+*MXP 16
+*DFN TMUX1209PWR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TMUX1209PWR)
+~!Mouser Part Number (595-TMUX1209PWR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMUX1209PWR?qs=l7cgNqFNU1gbdZeh0oWOOQ%3D%3D)
+~!Arrow Part Number (TMUX1209PWR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/tmux1209pwr/texas-instruments?utm_currency=USD&region=europe)
+~!Link Datasheet (http://www.ti.com/lit/gpn/TMUX1209)
+~!Height (1.2mm)
+~!3D_Model (TMUX1209PWR)
+TMUX1209PWR
+1.1!I 2.1!I 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 16.1!I 15.1!G 14.1!P 13.1!U 12.1!U 11.1!U 10.1!U 9.1!U 
