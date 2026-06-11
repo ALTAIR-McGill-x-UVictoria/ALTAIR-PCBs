@@ -2440,10 +2440,6 @@
 		(uuid "bfc37f4c-7160-4bb6-88f5-e9341466b44b")
 	)
 	(no_connect
-		(at 175.26 77.47)
-		(uuid "c2abd011-0139-4a13-a4b4-5cc38af1b9fc")
-	)
-	(no_connect
 		(at 120.65 86.36)
 		(uuid "c832f993-6dc0-4766-8f09-c17479de9aa3")
 	)
@@ -2578,6 +2574,16 @@
 			(type default)
 		)
 		(uuid "13b82d26-5cc4-4f3c-98a4-0ba1fb95e1c1")
+	)
+	(wire
+		(pts
+			(xy 172.72 77.47) (xy 175.26 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a852873-00e3-47e9-8b94-f744f4877146")
 	)
 	(wire
 		(pts
@@ -3463,6 +3469,17 @@
 			(justify right)
 		)
 		(uuid "a714f461-b75a-4ad6-bbd3-573a8fbfd9ad")
+	)
+	(hierarchical_label "GPIO-27"
+		(shape input)
+		(at 172.72 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ab78e3c4-8f7f-448a-a4bf-6f9ae0d6aa48")
 	)
 	(hierarchical_label "GPIO-74"
 		(shape input)
