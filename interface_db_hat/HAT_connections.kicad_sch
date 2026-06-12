@@ -3920,6 +3920,12 @@
 		(uuid "0788188b-46e1-4363-87f5-86d7537f53fa")
 	)
 	(junction
+		(at 212.09 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11299746-a6d8-4fc4-880c-b9eba6ba0981")
+	)
+	(junction
 		(at 200.66 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3930,6 +3936,12 @@
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "2c534b52-eea7-4342-9699-984c6359c2ae")
+	)
+	(junction
+		(at 212.09 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "385f19bb-e9e7-4cc4-b8f0-48cb53ae0f06")
 	)
 	(junction
 		(at 59.69 125.73)
@@ -3954,12 +3966,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66636c17-e95b-4be9-96f4-ed1803a257e3")
-	)
-	(junction
-		(at 212.09 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7bb8074c-242b-4f7c-b0dc-93870725202f")
 	)
 	(junction
 		(at 102.87 125.73)
@@ -4052,12 +4058,6 @@
 		(uuid "d0723bf2-99c2-4c99-9b88-c1a7459f8881")
 	)
 	(junction
-		(at 212.09 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "df408af6-9e9a-43bc-9d5f-584ef6227837")
-	)
-	(junction
 		(at 184.15 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4116,16 +4116,6 @@
 			(type solid)
 		)
 		(uuid "034bae34-8598-4c31-9ba9-a9bb469d350d")
-	)
-	(wire
-		(pts
-			(xy 208.28 73.66) (xy 212.09 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03fd2849-3a1c-4eef-b0c6-827d51074213")
 	)
 	(wire
 		(pts
@@ -4369,6 +4359,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 73.66) (xy 220.98 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bdc07f5-4126-489a-a96e-d8ffed198676")
+	)
+	(wire
+		(pts
 			(xy 106.68 67.31) (xy 104.14 67.31)
 		)
 		(stroke
@@ -4459,7 +4459,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 73.66) (xy 220.98 73.66)
+			(xy 208.28 73.66) (xy 212.09 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5437,16 +5437,6 @@
 		)
 		(uuid "3b0e2224-7ffc-44ef-9a85-e0cc90cfda34")
 	)
-	(label "EXP_INT_B"
-		(at 217.17 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3e6ed97b-5f2e-4b18-ae77-d183e51c014a")
-	)
 	(label "GPIO11{slash}SPI0.SCLK"
 		(at 62.23 59.69 0)
 		(effects
@@ -5627,16 +5617,6 @@
 		)
 		(uuid "b93ce339-ff39-4fee-80bf-17211dd6bb62")
 	)
-	(label "EXP_INT_A"
-		(at 217.17 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ba579dc7-644f-47f9-afb2-b0cabf542fe1")
-	)
 	(label "GPIO4{slash}GPCLK0"
 		(at 62.23 39.37 0)
 		(effects
@@ -5737,6 +5717,16 @@
 		)
 		(uuid "f18547c1-2436-4b37-8e4f-72b9134fa868")
 	)
+	(label "~{GPS_RST}"
+		(at 113.03 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f2e44f97-fa0c-4610-9ba3-0aa7cb38e6ea")
+	)
 	(label "GPIO21{slash}PCM.DOUT"
 		(at 127 80.01 180)
 		(effects
@@ -5746,17 +5736,6 @@
 			(justify right bottom)
 		)
 		(uuid "fcdec071-9721-4080-8930-964d807db6e3")
-	)
-	(hierarchical_label "GPIO_4"
-		(shape input)
-		(at 130.81 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0557a155-932e-491f-8e1a-bc7c2b9a1db7")
 	)
 	(hierarchical_label "GPIO_0"
 		(shape input)
@@ -5780,16 +5759,16 @@
 		)
 		(uuid "0e9087a3-7af3-4ed9-a4f3-0c9ae378d775")
 	)
-	(hierarchical_label "GPIO_6"
+	(hierarchical_label "GPIO_16"
 		(shape input)
-		(at 130.81 69.85 0)
+		(at 149.86 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "1016dda4-43cf-4321-a8d8-b4958319f676")
+		(uuid "107a6cb6-f38e-4cc6-91c2-6ac41497881a")
 	)
 	(hierarchical_label "GPA2"
 		(shape input)
@@ -5835,38 +5814,27 @@
 		)
 		(uuid "1eca4831-3648-4463-917d-f97096d7cf39")
 	)
-	(hierarchical_label "GPIO_11"
+	(hierarchical_label "GPIO_7"
 		(shape input)
-		(at 149.86 80.01 0)
+		(at 133.35 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "1f9e1c97-1dfd-4c9c-a17f-2ec434f929a0")
+		(uuid "1eed371e-cf7c-4215-8e9a-288478aff259")
 	)
-	(hierarchical_label "EXP_INT_B"
+	(hierarchical_label "GPIO_5"
 		(shape input)
-		(at 48.26 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "21b82318-9983-438c-b000-777e02233934")
-	)
-	(hierarchical_label "ADC1_CS"
-		(shape input)
-		(at 133.35 62.23 0)
+		(at 133.35 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "259b4a96-b58c-4c30-8b73-ae22ec62ad6b")
+		(uuid "27a2ffed-f7d1-4918-91a0-cecc4eb075c1")
 	)
 	(hierarchical_label "I2C_SCL"
 		(shape input)
@@ -5901,6 +5869,17 @@
 		)
 		(uuid "2952d19c-2097-4d0c-9651-d633499c3b9a")
 	)
+	(hierarchical_label "GPIO_6"
+		(shape input)
+		(at 130.81 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2a37f070-df9c-4a8e-ae97-c6f162d0db3c")
+	)
 	(hierarchical_label "GPA3"
 		(shape input)
 		(at 248.92 40.64 0)
@@ -5912,16 +5891,16 @@
 		)
 		(uuid "2a61e23b-3bbd-4de6-a30e-242f72045652")
 	)
-	(hierarchical_label "GPIO_3"
+	(hierarchical_label "GPIO_17"
 		(shape input)
-		(at 133.35 52.07 0)
+		(at 149.86 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "35cbe429-f500-406e-8970-2d0d35c56e56")
+		(uuid "387420ba-d418-4b33-8a7a-8d7588228735")
 	)
 	(hierarchical_label "GPA7"
 		(shape input)
@@ -5934,6 +5913,17 @@
 		)
 		(uuid "3c0a0359-2ce2-447c-b57d-5cc78982fcb5")
 	)
+	(hierarchical_label "GPIO_8"
+		(shape input)
+		(at 133.35 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "474553a0-e32b-43f5-b268-958897ad9cbb")
+	)
 	(hierarchical_label "GPA5"
 		(shape input)
 		(at 248.92 45.72 0)
@@ -5944,6 +5934,28 @@
 			(justify left)
 		)
 		(uuid "4b7a519c-04a2-402d-9f41-2a340a68c266")
+	)
+	(hierarchical_label "EXP_INT_B"
+		(shape input)
+		(at 217.17 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4cce6ea8-4193-4926-9c64-9f0d3ec1a1ee")
+	)
+	(hierarchical_label "GPIO_14"
+		(shape input)
+		(at 132.08 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f3134a5-bf91-4135-a95f-89b646e2d026")
 	)
 	(hierarchical_label "GPB2"
 		(shape input)
@@ -5978,27 +5990,27 @@
 		)
 		(uuid "5736bc45-7d0a-43a8-bebf-7368a1e6e7c2")
 	)
-	(hierarchical_label "GPIO_2"
+	(hierarchical_label "GPIO_15"
 		(shape input)
-		(at 133.35 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5aebb288-ca4f-4b27-b96e-9ce50a70f8a7")
-	)
-	(hierarchical_label "GPIO_5"
-		(shape input)
-		(at 50.8 67.31 180)
+		(at 62.23 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "6711f37e-e84f-4a81-ae49-459b197265c4")
+		(uuid "63c1b7a1-c3ad-4434-a938-0fc1dd4dd13a")
+	)
+	(hierarchical_label "GPIO_10"
+		(shape input)
+		(at 48.26 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "64019596-6db2-4f36-a04e-2380690efb46")
 	)
 	(hierarchical_label "GPB6"
 		(shape input)
@@ -6033,16 +6045,16 @@
 		)
 		(uuid "70f7ee8c-a44d-4280-9dd7-3ea63ac37407")
 	)
-	(hierarchical_label "EXP_INT_A"
+	(hierarchical_label "GPIO_2"
 		(shape input)
-		(at 48.26 72.39 180)
+		(at 62.23 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "7dd27521-0531-453d-adeb-97b9ae83af2b")
+		(uuid "880698ac-c3f8-4a56-8224-860a5941eb23")
 	)
 	(hierarchical_label "GPS_PPS"
 		(shape input)
@@ -6077,6 +6089,39 @@
 		)
 		(uuid "918f9999-1119-4bdd-8e5b-db0e120a24f1")
 	)
+	(hierarchical_label "GPIO_11"
+		(shape input)
+		(at 130.81 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "967a617a-95da-4d0c-a452-a964e7996c48")
+	)
+	(hierarchical_label "GPIO_3"
+		(shape input)
+		(at 62.23 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "96eb08d7-c2e1-4b19-abb9-65d749d0c83f")
+	)
+	(hierarchical_label "GPIO_9"
+		(shape input)
+		(at 50.8 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9b9afde8-b5f3-4691-bcf0-1b4131bcca78")
+	)
 	(hierarchical_label "GPB3"
 		(shape input)
 		(at 248.92 63.5 0)
@@ -6088,18 +6133,7 @@
 		)
 		(uuid "9d4ab14e-9d7a-4597-8e69-9b7d88e642f7")
 	)
-	(hierarchical_label "GPIO_9"
-		(shape input)
-		(at 62.23 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b5c334a2-e780-41d5-aed4-92b1a8907a3f")
-	)
-	(hierarchical_label "GPIO_7"
+	(hierarchical_label "GPIO_13"
 		(shape input)
 		(at 62.23 74.93 180)
 		(effects
@@ -6108,18 +6142,7 @@
 			)
 			(justify right)
 		)
-		(uuid "ba217997-bff9-4da3-9d5d-76d803ca016f")
-	)
-	(hierarchical_label "DAC2_CS"
-		(shape input)
-		(at 62.23 46.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c09ee92c-08da-4424-94ad-a9467ab5c24b")
+		(uuid "a43f196f-bfc3-41e1-ae07-d7202eba98c4")
 	)
 	(hierarchical_label "I2C_SDA"
 		(shape input)
@@ -6143,27 +6166,16 @@
 		)
 		(uuid "c930f06c-79a0-4bed-b681-a05ff04cad06")
 	)
-	(hierarchical_label "ADC2_CS"
+	(hierarchical_label "GPIO_12"
 		(shape input)
-		(at 133.35 59.69 0)
+		(at 48.26 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "cdd779a7-6f50-491f-9e35-32ea3ee599ec")
-	)
-	(hierarchical_label "GPIO_10"
-		(shape input)
-		(at 149.86 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d07bf487-7d69-4ddd-a163-82b756d35602")
+		(uuid "cc6cfd7c-c887-4e4c-bb53-4b699599e835")
 	)
 	(hierarchical_label "GPB1"
 		(shape input)
@@ -6187,6 +6199,17 @@
 		)
 		(uuid "db59ba86-b994-44c6-affb-f05c43770635")
 	)
+	(hierarchical_label "GPIO_4"
+		(shape input)
+		(at 133.35 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e031660b-6d19-445c-bd08-da6043f2a8d5")
+	)
 	(hierarchical_label "GPIO_1"
 		(shape input)
 		(at 62.23 44.45 180)
@@ -6197,28 +6220,6 @@
 			(justify right)
 		)
 		(uuid "ec036b11-db45-425f-a5cf-d544d0d7e6c8")
-	)
-	(hierarchical_label "DAC1_CS"
-		(shape input)
-		(at 62.23 49.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ec2f2480-c1e3-4cdc-8260-20e30d0d0ddc")
-	)
-	(hierarchical_label "GPIO_8"
-		(shape input)
-		(at 132.08 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ecaafb23-5bd3-46f0-9eb5-2692634c2107")
 	)
 	(hierarchical_label "MISO"
 		(shape input)
@@ -6231,85 +6232,16 @@
 		)
 		(uuid "fce0240b-c592-45b6-b062-d0e7175cfa29")
 	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 212.09 77.47 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "08e893e5-66cb-435d-bd1e-8d42b6185051")
-		(property "Reference" "JP8"
-			(at 209.296 77.216 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	(hierarchical_label "EXP_INT_A"
+		(shape input)
+		(at 217.17 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 220.472 80.772 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 212.09 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 212.09 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4c86ac9b-260c-47f9-b169-37df0037682f")
-		)
-		(pin "2"
-			(uuid "e6003cff-2a85-49ed-b67b-fe5648dd9a49")
-		)
-		(instances
-			(project "interface_db_hat"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9aa39dd2-f17c-466d-b47e-78913668b497"
-					(reference "JP8")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "ff65b91c-524f-48bc-a2ff-f0be12d6be27")
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
@@ -6546,84 +6478,6 @@
 			(project "interface_db_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9aa39dd2-f17c-466d-b47e-78913668b497"
 					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 46.99 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14545329-a566-4190-80de-c0d8d48bc602")
-		(property "Reference" "#PWR031"
-			(at 46.99 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 46.99 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bf8b0a7f-da1b-41ef-95c4-1fa24c2caf62")
-		)
-		(instances
-			(project "interface_db_hat"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9aa39dd2-f17c-466d-b47e-78913668b497"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -8740,6 +8594,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 212.09 77.47 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "932d1a7a-144c-4388-a694-a9d6a4e77d5f")
+		(property "Reference" "R13"
+			(at 206.502 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 206.502 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 211.074 77.216 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 212.09 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "331db583-a1c8-478a-bf2a-8ca3ce387c0f")
+		)
+		(pin "1"
+			(uuid "8535c97b-19bf-48f4-b052-268113315f1b")
+		)
+		(instances
+			(project "interface_db_hat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9aa39dd2-f17c-466d-b47e-78913668b497"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Interface_Expansion:MCP23017x-x-SO")
 		(at 233.68 53.34 0)
 		(unit 1)
@@ -10009,7 +9944,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 118.11 133.35 0)
+		(at 46.99 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10020,7 +9955,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed2e181a-e6e8-4fec-868d-4b5590f20b6b")
 		(property "Reference" "#PWR032"
-			(at 118.11 139.7 0)
+			(at 46.99 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10031,7 +9966,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 138.43 0)
+			(at 46.99 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10041,7 +9976,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 133.35 0)
+			(at 46.99 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10052,7 +9987,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 133.35 0)
+			(at 46.99 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10063,7 +9998,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 133.35 0)
+			(at 46.99 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10080,88 +10015,6 @@
 			(project "interface_db_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9aa39dd2-f17c-466d-b47e-78913668b497"
 					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 46.99 129.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2185928-e4df-4715-a8d7-444123d2f7be")
-		(property "Reference" "C4"
-			(at 50.8 128.2699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 50.8 130.8099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 47.9552 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 46.99 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8983daec-0a9f-4262-bcb6-42c4faf9c3be")
-		)
-		(pin "2"
-			(uuid "d7d5adc0-f560-41e0-b6e0-b940b1b25e0f")
-		)
-		(instances
-			(project "interface_db_hat"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9aa39dd2-f17c-466d-b47e-78913668b497"
-					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -10248,7 +10101,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 118.11 129.54 0)
+		(at 46.99 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10259,7 +10112,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7a7bfa6-25dc-4cfa-b664-a99a5b73c47b")
 		(property "Reference" "C5"
-			(at 121.92 128.2699 0)
+			(at 50.8 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10270,7 +10123,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 121.92 130.8099 0)
+			(at 50.8 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10281,7 +10134,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 119.0752 133.35 0)
+			(at 47.9552 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10292,7 +10145,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 129.54 0)
+			(at 46.99 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10303,7 +10156,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 118.11 129.54 0)
+			(at 46.99 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
