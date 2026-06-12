@@ -3152,7 +3152,7 @@
 		(uuid "0e264b84-d177-44f8-ba75-0e9c65552421")
 	)
 	(label "STP-MS2"
-		(at 72.39 59.69 0)
+		(at 72.39 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3192,7 +3192,7 @@
 		(uuid "24612f9e-295b-43f8-a816-286b3a9f7a19")
 	)
 	(label "STP-DIR"
-		(at 72.39 54.61 0)
+		(at 72.39 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3212,7 +3212,7 @@
 		(uuid "27845b56-9cdf-4430-b709-858035a72bea")
 	)
 	(label "STP-MS3"
-		(at 72.39 62.23 0)
+		(at 72.39 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3222,7 +3222,7 @@
 		(uuid "27b9a2a5-f8bd-400a-a90b-e9794d5b7551")
 	)
 	(label "STP-MS1"
-		(at 72.39 57.15 0)
+		(at 72.39 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3292,7 +3292,7 @@
 		(uuid "4023dd5c-c2fb-4a92-a545-e0360db93e95")
 	)
 	(label "STP-STEP"
-		(at 72.39 52.07 0)
+		(at 72.39 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3592,16 +3592,6 @@
 		)
 		(uuid "a4b52f8d-3537-43ed-94b3-6b4fa1a36152")
 	)
-	(label ""
-		(at 231.14 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a67a0c64-8ed1-4dc0-b6a1-19d8c9b5d75a")
-	)
 	(label "CAN_RXD"
 		(at 35.56 31.75 180)
 		(effects
@@ -3613,7 +3603,7 @@
 		(uuid "a9f51e82-769f-4ce1-ab84-25c7986b041a")
 	)
 	(label "LED_PWM_2"
-		(at 72.39 40.64 0)
+		(at 72.39 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3663,7 +3653,7 @@
 		(uuid "b285f431-d18e-4931-a3f0-bebd9055d9ac")
 	)
 	(label "~{STP-SLP}"
-		(at 72.39 69.85 0)
+		(at 72.39 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3723,7 +3713,7 @@
 		(uuid "c504576e-bd4c-4f35-b27e-d3d405b45e8d")
 	)
 	(label "PWM-Heaters"
-		(at 72.39 38.1 0)
+		(at 72.39 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3763,7 +3753,7 @@
 		(uuid "d7f6576c-bf97-45eb-a124-6013e6f50176")
 	)
 	(label "~{STP-RST}"
-		(at 72.39 67.31 0)
+		(at 72.39 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3844,7 +3834,7 @@
 		(uuid "ef3e1402-c44b-4c4a-98d4-e68ad3d658ba")
 	)
 	(label "~{STP-EN}"
-		(at 72.39 64.77 0)
+		(at 72.39 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6213,16 +6203,6 @@
 				(justify right)
 			)
 		)
-		(pin "EHRPWM2A" input
-			(at 69.85 40.64 0)
-			(uuid "0dbafe6c-7f2b-4267-b610-6c4adfbafb4b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "GPIO-8" input
 			(at 38.1 43.18 180)
 			(uuid "e3b0e51c-8df2-4b18-985d-1795c43f6e6b")
@@ -6336,16 +6316,6 @@
 		(pin "GPIO-50" input
 			(at 38.1 73.66 180)
 			(uuid "80b2c37c-bfd2-4b97-9214-b6781ca3776d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GPIO-51" input
-			(at 38.1 76.2 180)
-			(uuid "33ec98f8-8981-45fa-b320-5559668c20d5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6516,6 +6486,26 @@
 		(pin "GPIO-27" input
 			(at 38.1 55.88 180)
 			(uuid "0cf695dd-412c-4cb7-83f4-7ad1a9bf7118")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EHRPWM2B" input
+			(at 69.85 40.64 0)
+			(uuid "b2ec1b0a-3fc0-496d-8bf3-2cdf28090170")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO-48" input
+			(at 38.1 76.2 180)
+			(uuid "e38df7d5-b7a7-4423-be77-0b8b9ab84487")
 			(effects
 				(font
 					(size 1.27 1.27)
