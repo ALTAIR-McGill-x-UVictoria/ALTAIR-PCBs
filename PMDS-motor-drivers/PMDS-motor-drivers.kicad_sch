@@ -5968,7 +5968,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W8.89mm_SMDSocket_LongPads"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 137.16 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -7538,7 +7538,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W8.89mm_SMDSocket_LongPads"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 66.04 97.79 0)
 			(hide yes)
 			(show_name no)
