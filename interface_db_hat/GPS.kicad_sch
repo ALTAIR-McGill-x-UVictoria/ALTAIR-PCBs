@@ -2542,17 +2542,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C16194197"
-			(at 168.91 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "7122acde-8760-41bb-b171-f4d261c61761")
 		)
@@ -2625,17 +2614,6 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 72.39 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 72.39 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -3444,28 +3422,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 91.44 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C76970"
-			(at 91.44 49.53 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 91.44 49.53 0)
 			(hide yes)
 			(show_name no)
