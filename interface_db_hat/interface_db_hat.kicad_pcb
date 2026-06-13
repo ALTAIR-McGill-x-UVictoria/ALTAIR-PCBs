@@ -1780,6 +1780,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2917816"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4a1a14b9-42a2-4f14-a6e1-9fc6603d449e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "CONN20_DF19G_HIR")
 		(path "/c4414290-b94e-414b-b205-bb6a7585a6cf")
 		(sheetname "/")
@@ -5692,6 +5703,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7501277"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4b73e918-965b-482d-8e58-a85a30c1cdf6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/bc96312a-f448-40b3-af2c-d3aa7702bb37")
 		(sheetname "/")
@@ -7007,6 +7029,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2693608"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "11b421ab-9404-418e-ab36-2459e14fcf60")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/20933ded-028e-4f23-a623-7ef7f7bb954e/b1fec5c8-b8ab-4057-8b81-39e37e4228ca")
 		(sheetname "/test_points_and_indicators/")
@@ -7215,6 +7248,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2693608"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6ab25a07-20b1-4cbe-a13f-291766b70a67")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -7587,6 +7631,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2693608"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ce6a5170-b552-4e84-a790-d5c85d511a6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a1ce85a0-5053-4b6b-8321-fc71d50d0b27")
 		(sheetname "/")
@@ -7798,6 +7853,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2693608"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5b6943bf-d435-4a43-924f-f937a0030953")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/9aa39dd2-f17c-466d-b47e-78913668b497/1caab13e-8d42-4b02-a428-4e0df5d579d0")
 		(sheetname "/HAT_connections/")
@@ -8006,6 +8072,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C16194197"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b594d966-cae7-428e-b746-c8585f5d606d")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -8305,6 +8382,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C16194197"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c50cca77-c073-49ef-b61f-db98fbeb25a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/fb7e54a4-4c8b-4bd7-84af-28a6388ff88a")
 		(sheetname "/")
@@ -8595,6 +8683,17 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ce1417d9-2679-4ed3-9228-23155c5ab031")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C16194197"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d9ca0c1c-a99c-47bb-9abc-97aad47a2218")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9203,6 +9302,17 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C720611"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "315a5879-ee95-4832-904f-d3d17bc3b986")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -9867,6 +9977,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C16194197"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "38dd7853-1f51-4f0e-bfe4-048a43dbe20f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/01ac10c2-b352-4a3b-b4ca-e6d46c8382b9")
 		(sheetname "/")
@@ -10482,6 +10603,17 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C496550"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "774ef3bd-574e-438c-881c-9b1ebeeda075")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -11716,6 +11848,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C16194197"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8558500c-4c47-4d2b-9c76-d1d9d997b8a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/9aa39dd2-f17c-466d-b47e-78913668b497/36111317-e4b7-4b06-a0d5-fb6651365f28")
 		(sheetname "/HAT_connections/")
@@ -12170,6 +12313,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C16194197"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1005d2ef-0165-4ead-bae4-11c569559cbf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/de66142f-941e-4d5e-b86c-ea21cf9b191c")
 		(sheetname "/")
@@ -12461,6 +12615,17 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8af55e8c-dafe-43c2-8728-650bf8d80fc4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7501277"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5413e154-e8c0-44ab-8881-7e860590a8b6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13563,6 +13728,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C160404"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6c2d59e1-6ca2-4a75-b956-fa8bffaba6f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/9aa39dd2-f17c-466d-b47e-78913668b497/49127397-8660-4b74-a3b5-ff202ceedc09")
 		(sheetname "/HAT_connections/")
@@ -14405,6 +14581,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2693608"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f12afa21-bff6-47e1-8aa5-3a4c64330d21")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/9aa39dd2-f17c-466d-b47e-78913668b497/21d3cc76-7d97-4254-963c-70882bd55839")
 		(sheetname "/HAT_connections/")
@@ -14598,6 +14785,17 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5fd0a4a1-1563-4f30-a97b-42518304414e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C16194197"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "555afda7-b637-4676-b256-bafb6e8189e0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15357,6 +15555,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7501277"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dbbf98fd-68a3-4346-9ed5-31bd442ccf95")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/774dfa91-a1f3-4ca4-a398-751f9c238946")
 		(sheetname "/")
@@ -15759,6 +15968,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2693608"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c1f9fbbf-1b67-43a2-a1fc-efb3dba2ed14")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/9aa39dd2-f17c-466d-b47e-78913668b497/0f47c577-19bb-406a-9e41-6b635512d580")
 		(sheetname "/HAT_connections/")
@@ -16119,6 +16339,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2693608"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "744c26a2-8a2c-4bdd-a909-ca5b466bd99c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/20933ded-028e-4f23-a623-7ef7f7bb954e/3a1f526c-4c3c-4458-951c-8c638e4b5692")
 		(sheetname "/test_points_and_indicators/")
@@ -16328,6 +16559,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2693608"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5eb9bebc-3c02-44e7-969e-ea6dd2e796ac")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -16542,6 +16784,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C16194197"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d8b54a13-ed24-4b91-81f0-4b20906376aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/6906e4b4-fd4f-401e-9187-e3e1330d126c/2aa9954e-3246-4386-bb6d-06121dfa3479")
 		(sheetname "/photodiode/")
@@ -16684,6 +16937,17 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cf13068b-1e9f-4cc4-89b7-a259945ed696")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C160404"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "46d335f4-c4f5-41be-bba3-d961c283bba8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17558,6 +17822,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2693608"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4a4805a7-dfe4-4e2b-8994-698262d56a55")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/20933ded-028e-4f23-a623-7ef7f7bb954e/72f12ed7-8083-4e58-a711-d8f73567554a")
 		(sheetname "/test_points_and_indicators/")
@@ -17899,6 +18174,17 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2296c9d7-ad00-48f3-a81a-3a827f98a987")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C16194197"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "27a16f8a-6cd5-4822-afbb-323e761e3735")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19104,6 +19390,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2693608"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "723506dd-e707-4a4a-8cbe-2b98128df693")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/9aa39dd2-f17c-466d-b47e-78913668b497/09bc7a4c-a258-4bec-b1c6-48b9e6ac60f9")
 		(sheetname "/HAT_connections/")
@@ -19725,6 +20022,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C602037"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6749b993-82e6-4e30-8d71-d50d6a5c3c5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/56f05d8a-8088-400f-a7b4-2959a97f3931")
 		(sheetname "/")
@@ -20329,6 +20637,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C602037"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2364872c-964f-4967-a2f2-a40da5490677")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/d7504b33-748f-41b2-9351-a4b67b592fa3")
 		(sheetname "/")
@@ -20637,6 +20956,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C16194197"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dd331f33-30ef-4e69-a1a3-cbb1415292b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/6906e4b4-fd4f-401e-9187-e3e1330d126c/37920527-a273-42ba-bba5-9679e452bbdc")
 		(sheetname "/photodiode/")
@@ -20793,6 +21123,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C602037"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "60c8ebda-f0e0-4ddd-a1fc-5220290cdde0")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21103,6 +21444,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C76970"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "042aaae1-55bd-4f3a-8aae-ae8776d24320")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/aeb159fc-7cd8-4bec-a350-e637aece7c18/e0a947b3-6ce1-4f6f-a078-f6008d35b21a")
 		(sheetname "/GPS/")
@@ -21261,6 +21613,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2693608"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1707dc40-cad7-4e4a-ab01-02e8205442c6")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -22750,6 +23113,17 @@
 					(size 1.27 1.27)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C2977589"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "58cc5832-fd0a-4b64-8d97-0347f8549aa9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
