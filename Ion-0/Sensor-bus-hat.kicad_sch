@@ -18194,8 +18194,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 102.87 270.51 0)
-		(mirror x)
+		(at 102.87 267.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18205,7 +18204,7 @@
 		(dnp no)
 		(uuid "7bf08e71-3cbe-4e29-8571-38305a7f1116")
 		(property "Reference" "J15"
-			(at 105.41 270.5101 0)
+			(at 105.41 267.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18216,7 +18215,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 105.41 267.9701 0)
+			(at 105.41 270.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18227,7 +18226,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical"
-			(at 102.87 270.51 0)
+			(at 102.87 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18238,7 +18237,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 270.51 0)
+			(at 102.87 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18249,7 +18248,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 102.87 270.51 0)
+			(at 102.87 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
