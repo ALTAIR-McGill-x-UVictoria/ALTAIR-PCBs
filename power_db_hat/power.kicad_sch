@@ -3485,7 +3485,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "TL431:DBZ0003A_L"
 			(at 219.456 60.96 0)
 			(hide yes)
 			(show_name no)
