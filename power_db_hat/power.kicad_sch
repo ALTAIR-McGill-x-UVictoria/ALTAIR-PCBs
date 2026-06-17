@@ -1643,16 +1643,6 @@
 		)
 		(uuid "1fbbbb0c-c091-4e51-b391-a2f553f48dd1")
 	)
-	(text "extra ground connector to \nsimplify BOM and save space\n"
-		(exclude_from_sim no)
-		(at 54.356 31.496 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "53f052c9-b91a-4a65-8992-85b58083372b")
-	)
 	(text "Switch J16:\n\nFloat → OFF\nGND → ON (~46mA, no load)\n\nR28 (330Ω) limits LVD gate inrush\n10kΩ on pin 2 required - no series resistor on D11, direct short will destroy it\nTODO rev: add series resistor in series with D11 cathode to source to limit zener current\n"
 		(exclude_from_sim no)
 		(at 128.27 84.328 0)
@@ -1730,12 +1720,6 @@
 		(uuid "036a8629-612f-4c9b-ba4c-277f3d475dfe")
 	)
 	(junction
-		(at 85.09 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04e368cd-87ab-4f34-ae87-34c3afbe4cc3")
-	)
-	(junction
 		(at 199.39 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1788,12 +1772,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ab35a56-95d1-45e6-8176-f6e4b7691fb6")
-	)
-	(junction
-		(at 57.15 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86bb417f-f34c-41ef-97e0-b3b52bc902a7")
 	)
 	(junction
 		(at 96.52 44.45)
@@ -2030,16 +2008,6 @@
 			(type default)
 		)
 		(uuid "23a2b3a8-a13c-4928-a036-77ef3aeeb225")
-	)
-	(wire
-		(pts
-			(xy 77.47 41.91) (xy 85.09 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26567fe8-f8f0-4f1c-8b14-dae4aeeac495")
 	)
 	(wire
 		(pts
@@ -2403,16 +2371,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 29.21) (xy 85.09 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93bfcbd5-45d3-40fb-aa96-ba68ab70a6a5")
-	)
-	(wire
-		(pts
 			(xy 201.93 111.76) (xy 205.74 111.76)
 		)
 		(stroke
@@ -2460,16 +2418,6 @@
 			(type default)
 		)
 		(uuid "a3a3b79f-bf1b-44cf-b5be-b01ef00e3004")
-	)
-	(wire
-		(pts
-			(xy 57.15 41.91) (xy 58.42 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2b77c69-4ce9-43d6-a6c4-dc47628f04b5")
 	)
 	(wire
 		(pts
@@ -2600,16 +2548,6 @@
 			(type default)
 		)
 		(uuid "dd63e792-4d26-4701-8584-8a2da3c9deff")
-	)
-	(wire
-		(pts
-			(xy 55.88 41.91) (xy 57.15 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dee05d83-6c35-4dc9-9bc8-e959ea5640f8")
 	)
 	(wire
 		(pts
@@ -3014,8 +2952,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 72.39 41.91 0)
-		(mirror y)
+		(at 72.39 46.99 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3025,7 +2962,7 @@
 		(dnp no)
 		(uuid "0f3bb637-5600-4e98-b351-77cbbcadbcc7")
 		(property "Reference" "J16"
-			(at 72.136 47.752 0)
+			(at 72.136 41.148 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3035,7 +2972,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 72.39 48.26 0)
+			(at 72.39 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3046,7 +2983,7 @@
 			)
 		)
 		(property "Footprint" "Terminal_Block_Custom:1x02_P2.54mm_Horizontal"
-			(at 72.39 41.91 0)
+			(at 72.39 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3057,7 +2994,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 41.91 0)
+			(at 72.39 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3068,7 +3005,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 72.39 41.91 0)
+			(at 72.39 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3088,6 +3025,84 @@
 			(project "power_db_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fd5e5e33-5dc6-45b9-b42d-1fb287c03766"
 					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 77.47 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1034ec4c-80f4-40a0-abdb-40f529f45590")
+		(property "Reference" "#PWR021"
+			(at 77.47 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f5d1ec43-87ce-4681-995c-a69ac99f64b5")
+		)
+		(instances
+			(project "power_db_hat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fd5e5e33-5dc6-45b9-b42d-1fb287c03766"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -3740,84 +3755,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 57.15 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64bbb937-8649-409d-b637-43ef614b7664")
-		(property "Reference" "#PWR044"
-			(at 57.15 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 57.15 46.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7345d453-1529-4b00-b04a-94c4d2218e91")
-		)
-		(instances
-			(project "power_db_hat"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fd5e5e33-5dc6-45b9-b42d-1fb287c03766"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "PMOS_1")
 		(lib_id "Simulation_SPICE:PMOS")
 		(at 236.22 44.45 90)
@@ -3929,86 +3866,6 @@
 			(project "power_db_hat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fd5e5e33-5dc6-45b9-b42d-1fb287c03766"
 					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 55.88 36.83 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6e7dde98-48a9-454d-8f2c-7572b8af8d69")
-		(property "Reference" "J10"
-			(at 53.086 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 62.23 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Terminal_Block_Custom:1x02_P2.54mm_Horizontal"
-			(at 55.88 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 55.88 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "86b90328-5e29-4f8e-af0d-59ff22cd9272")
-		)
-		(pin "1"
-			(uuid "eb4975d8-0aed-49b2-b864-76dd97cc6101")
-		)
-		(instances
-			(project "power_db_hat"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fd5e5e33-5dc6-45b9-b42d-1fb287c03766"
-					(reference "J10")
 					(unit 1)
 				)
 			)
