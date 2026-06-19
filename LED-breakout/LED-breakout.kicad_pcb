@@ -3104,6 +3104,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C98220"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "469eb3e9-93ee-40b6-a265-d18ef7880e2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/52b98bd0-66f9-450f-bd5c-08b04e5b68c8")
 		(sheetname "/")
@@ -3255,6 +3267,18 @@
 					(size 1.27 1.27)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C98220"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "272ce613-e9bf-4d2b-84ea-4361d0b18ec2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -3421,6 +3445,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C122410"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "a19e0e82-c841-4c1c-b89c-78a4f95f36c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
@@ -3840,6 +3876,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C440252"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "9ee8dcfe-08a9-4c55-9d0d-2fe240572a52")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_* RV_*")
 		(path "/7981817c-6357-4803-86ae-dd6627d77fa2")
 		(sheetname "/")
@@ -3990,6 +4038,18 @@
 					(size 1.27 1.27)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C2845390"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "61c27531-a6aa-44e9-89e6-f8e2ce6a354e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
@@ -4463,6 +4523,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C98220"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "88da76fc-deb9-4b13-96a3-a8617f779fbe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/fd2e36a2-2965-4a58-b874-76eb2bb13c53")
 		(sheetname "/")
@@ -4627,6 +4699,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C122410"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "6d5a3603-8bca-41f6-9528-1613e4ee38a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
