@@ -2654,16 +2654,6 @@
 		)
 		(uuid "08a673e0-e97a-47be-bf75-be7a37aa52e8")
 	)
-	(label "NTC_DIFF-"
-		(at 124.46 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0ac736a4-5b08-48f8-966c-b7e31b7e840d")
-	)
 	(label "PD_OUT"
 		(at 180.34 68.58 0)
 		(effects
@@ -2693,6 +2683,16 @@
 			(justify right bottom)
 		)
 		(uuid "68231899-bdb9-4574-b4f2-d71abd5ecb99")
+	)
+	(label "NTC_DIFF-"
+		(at 107.95 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6f515f45-6f70-4623-98d6-528047e1c8a6")
 	)
 	(label "PD_ANODE"
 		(at 100.33 58.42 180)
@@ -2775,14 +2775,14 @@
 		(uuid "a0205d95-71c4-4038-ae69-608168f4a03b")
 	)
 	(label "NTC_DIFF+"
-		(at 107.95 124.46 180)
+		(at 124.46 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "aadbc38b-9d8a-4f46-8838-75a25dfe2b11")
+		(uuid "b1132e5d-a408-4aae-9c58-233c5daafc83")
 	)
 	(label "PD_OUT"
 		(at 196.85 57.15 180)

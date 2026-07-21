@@ -5487,16 +5487,6 @@
 		)
 		(uuid "5250f6a3-ead2-4184-9d11-66e5a3027db4")
 	)
-	(label "EXP_INT_A"
-		(at 62.23 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "59b31363-c261-4563-a021-d8d6a1fa6a7d")
-	)
 	(label "UART_EXT_RX"
 		(at 129.54 41.91 0)
 		(effects
@@ -5706,16 +5696,6 @@
 			(justify left bottom)
 		)
 		(uuid "e2c96ade-cc01-40d6-bd4f-dc76d689770f")
-	)
-	(label "EXP_INT_B"
-		(at 62.23 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f18547c1-2436-4b37-8e4f-72b9134fa868")
 	)
 	(label "~{GPS_RST}"
 		(at 113.03 40.64 180)

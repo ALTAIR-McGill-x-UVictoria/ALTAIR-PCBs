@@ -3745,6 +3745,16 @@
 		)
 		(uuid "3e9f51fe-df83-4c87-a146-728f23ec8cd8")
 	)
+	(text "Delay in 3v3 rail power on causes race condition for current driver"
+		(exclude_from_sim no)
+		(at 119.126 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "77181ac1-e24e-41e4-a5bd-7e3ae1914417")
+	)
 	(text "Linear Actuators"
 		(exclude_from_sim no)
 		(at 217.678 51.308 0)
